@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
-  <rect width="600" height="600" fill="#faf6f2"/>
-  <rect x="1.5" y="1.5" width="597" height="597" fill="none" stroke="#ecdfd5" stroke-width="3"/>
-  <text x="300" y="250" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="800" font-size="46" letter-spacing="8" fill="#1a1a1a">LOEWE</text>
-  <text x="300" y="308" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="32" fill="#6f6f6f">Aire Sutileza</text>
-  <text x="300" y="346" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="17" letter-spacing="3" fill="#9a8b7e">EAU DE TOILETTE · 1.7 OZ</text>
-  <circle cx="300" cy="418" r="5" fill="#F5821F"/>
-</svg>

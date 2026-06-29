@@ -2,7 +2,7 @@
 title: "Loewe Aire Sutileza Eau de Toilette 1.7 oz"
 brand: "Loewe"
 category: "beauty"
-image: "/images/products/loewe-aire-sutileza-eau-de-toilette.svg"
+image: "/images/products/loewe-aire-sutileza-eau-de-toilette.jpg"
 price: ""
 buyUrl: "https://sovrn.co/11xr8gt"
 date: 2026-06-29

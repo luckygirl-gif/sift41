@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
-  <rect width="600" height="600" fill="#eef0f2"/>
-  <rect x="1.5" y="1.5" width="597" height="597" fill="none" stroke="#d7dade" stroke-width="3"/>
-  <text x="300" y="250" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="800" font-size="44" letter-spacing="4" fill="#3a3f44">GODDARD'S</text>
-  <text x="300" y="305" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="30" fill="#6b7177">Silver Polish Foam</text>
-  <text x="300" y="345" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="16" letter-spacing="2" fill="#9aa1a8">SILVER &amp; SILVERWARE CLEANER</text>
-  <circle cx="300" cy="418" r="5" fill="#F5821F"/>
-</svg>
