@@ -1,12 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
+import Logo from '../components/Logo.astro';
 ---
-<Base title="About — SIFT41" description="How SIFT41 curates: no sponsorships, no trends — just evidence, testing, and time.">
+<Base title="About — Sift41" description="How Sift41 curates: no sponsorships, no trends — just evidence, testing, and time.">
   <article class="page">
-    <h1>About SIFT41</h1>
+    <h1 class="abouth1">About <Logo height={30} /></h1>
 
     <h2>Our Curation</h2>
-    <p>SIFT41 started with a simple frustration: finding trustworthy recommendations shouldn't be this hard. So we built something different.</p>
+    <p><Logo height={15} /> started with a simple frustration: finding trustworthy recommendations shouldn't be this hard. So we built something different.</p>
     <p>We don't accept sponsorships. We don't chase trends. We investigate — comparing evidence, testing real-world performance, and waiting to see what holds up over time. If something doesn't prove itself, it doesn't make the cut. What remains is a curated set of recommendations we stand behind completely.</p>
 
     <h2>Monthly Edit</h2>
@@ -17,6 +18,7 @@ import Base from '../layouts/Base.astro';
   </article>
   <style>
     .page { max-width: 680px; }
+    .abouth1 { display: flex; align-items: center; gap: .45rem; }
     .note { margin-top: 2rem; font-size: .82rem; border-top: 1px solid var(--line); padding-top: 1rem; }
   </style>
 </Base>

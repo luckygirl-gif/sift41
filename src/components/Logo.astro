@@ -1,0 +1,16 @@
+---
+import { url } from '../lib/url';
+// variant: 'wordmark'(Sift41 글자) | 'mark'(S41 원형). 브랜드명이 들어갈 자리엔 항상 이 컴포넌트를 쓴다.
+const { variant = 'wordmark', height = 26 } = Astro.props;
+const isMark = variant === 'mark';
+const src = isMark ? '/logo-mark.svg' : '/logo.svg';
+const width = isMark ? height : Math.round((height * 184) / 60); // 워드마크 viewBox 184x60
+---
+<img
+  class="sift-logo"
+  src={url(src)}
+  alt="Sift41"
+  height={height}
+  width={width}
+  style={`height:${height}px;width:${width}px;display:inline-block;vertical-align:middle;`}
+/>

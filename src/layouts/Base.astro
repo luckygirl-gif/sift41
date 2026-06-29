@@ -1,5 +1,6 @@
 ---
 import { url } from '../lib/url';
+import Logo from '../components/Logo.astro';
 const {
   title = 'Sift41',
   description = 'Curated health, beauty & wellness picks worth your attention.',
@@ -16,7 +17,7 @@ const {
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <link rel="icon" href={url('/favicon.svg')} />
-    <!-- 제휴: 구매 링크는 Amazon Associates(amzn.to) / Sovrn(sovrn.co)로 직접 추적됨. 별도 스크립트 불필요. -->
+    <!-- 제휴: 구매 링크는 Amazon Associates(amzn.to) / Sovrn(sovrn.co)로 직접 추적됨. -->
     <style is:global>
       :root {
         --accent: #F5821F;
@@ -32,7 +33,7 @@ const {
         -webkit-font-smoothing: antialiased;
       }
       body { margin: 0; }
-      img { max-width: 100%; display: block; }
+      img { max-width: 100%; }
       a { color: inherit; }
       header.site {
         display: flex; align-items: center; justify-content: space-between;
@@ -40,7 +41,6 @@ const {
         border-bottom: 1px solid var(--line);
       }
       header.site .brand { display: inline-flex; align-items: center; }
-      header.site .brand img { height: 26px; width: auto; }
       header.site nav { display: flex; gap: 1.4rem; font-size: .92rem; }
       header.site nav a { text-decoration: none; color: var(--muted); }
       header.site nav a:hover { color: var(--ink); }
@@ -49,6 +49,7 @@ const {
         max-width: 1080px; margin: 0 auto; padding: 1.6rem 1.25rem 2.5rem;
         border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem;
       }
+      footer.site .brandline { display: flex; align-items: center; gap: .5rem; margin-top: .4rem; }
       h1 { font-size: 1.95rem; line-height: 1.2; margin: .1em 0 .35em; letter-spacing: -.01em; }
       h2 { font-size: 1.15rem; margin: 1.6em 0 .4em; }
       .muted { color: var(--muted); }
@@ -56,9 +57,7 @@ const {
   </head>
   <body>
     <header class="site">
-      <a class="brand" href={url('/')} aria-label="Sift41 home">
-        <img src={url('/logo.svg')} alt="Sift41" width="80" height="26" />
-      </a>
+      <a class="brand" href={url('/')} aria-label="Sift41 home"><Logo height={26} /></a>
       <nav>
         <a href={url('/')}>Products</a>
         <a href={url('/about/')}>About</a>
@@ -68,7 +67,7 @@ const {
     <main><slot /></main>
     <footer class="site">
       <p>Some links are affiliate links — we may earn a small commission at no additional cost to you. This supports our testing and research.</p>
-      <p>© Sift41 · We don't accept sponsorships. We don't chase trends.</p>
+      <p class="brandline"><Logo height={16} /> <span>· We don't accept sponsorships. We don't chase trends.</span></p>
     </footer>
   </body>
 </html>
