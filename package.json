@@ -1,0 +1,19 @@
+{
+  "name": "sift41",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "scrape": "node scripts/scrape.mjs",
+    "to-content": "node scripts/to-content.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.6.0"
+  },
+  "devDependencies": {
+    "node-html-parser": "^7.0.1"
+  }
+}

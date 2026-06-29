@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ProductCard from '../components/ProductCard.astro';
+
+const products = (await getCollection('products')).sort(
+  (a, b) => +new Date(b.data.date) - +new Date(a.data.date)
+);
+const categories = [...new Set(products.map((p) => p.data.category))].sort();
+---
+<Base title="SIFT41 — Curated picks">
+  <section class="hero">
+    <h1>Curated picks worth your attention.</h1>
+    <p class="muted">We investigate, compare evidence, and test what holds up over time. What remains is a short list we stand behind.</p>
+  </section>
+
+  <nav class="filters" aria-label="Filter by category">
+    <button data-cat="all" class="active">All</button>
+    {categories.map((c) => <button data-cat={c}>{c}</button>)}
+  </nav>
+
+  <section class="grid">
+    {products.map((p) => <ProductCard product={p} />)}
+  </section>
+
+  <style>
+    .hero { margin: .5rem 0 1.5rem; max-width: 640px; }
+    .hero p { margin-top: .2rem; }
+    .filters { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.4rem; }
+    .filters button {
+      border: 1px solid var(--line); background: #fff; border-radius: 999px;
+      padding: .35rem .9rem; cursor: pointer; font: inherit; font-size: .85rem; color: var(--muted);
+      text-transform: lowercase;
+    }
+    .filters button.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 1.1rem; }
+  </style>
+
+  <script>
+    const buttons = document.querySelectorAll('.filters button');
+    const cards = document.querySelectorAll('.grid .card');
+    buttons.forEach((b) =>
+      b.addEventListener('click', () => {
+        buttons.forEach((x) => x.classList.remove('active'));
+        b.classList.add('active');
+        const cat = b.getAttribute('data-cat');
+        cards.forEach((c) => {
+          const show = cat === 'all' || c.getAttribute('data-category') === cat;
+          (c as HTMLElement).style.display = show ? '' : 'none';
+        });
+      })
+    );
+  </script>
+</Base>

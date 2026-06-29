@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+const CONTACT = 'infosift41@gmail.com';
+---
+<Base title="Request Research — SIFT41" description="Tell us what to sift. We'll research it properly and share what holds up.">
+  <article class="page">
+    <h1>Request Research</h1>
+    <p class="lead">Want us to sift it for you? Tell us what you're after. We'll look into it properly — sifting through reviews, checking sources against each other, and testing what deserves a closer look. If something proves itself, it'll earn a place here.</p>
+
+    <form id="rr" class="rr">
+      <label>Product category you're researching
+        <input name="category" required placeholder="e.g. vitamin C serum" />
+      </label>
+      <label>What matters most (budget, ingredients, allergies, goals)
+        <textarea name="priorities" rows="3" required></textarea>
+      </label>
+      <label>Options you're already considering
+        <textarea name="considering" rows="2"></textarea>
+      </label>
+      <label>Dealbreakers or must-avoids
+        <textarea name="dealbreakers" rows="2"></textarea>
+      </label>
+      <label>Email for follow-up
+        <input type="email" name="email" required placeholder="you@example.com" />
+      </label>
+      <button type="submit">Submit Request</button>
+      <p class="hint muted">Opens your email app addressed to {CONTACT}.</p>
+    </form>
+  </article>
+
+  <style>
+    .page { max-width: 600px; }
+    .lead { color: var(--muted); margin-bottom: 1.5rem; }
+    .rr { display: grid; gap: 1rem; }
+    .rr label { display: grid; gap: .35rem; font-size: .9rem; font-weight: 600; }
+    .rr input, .rr textarea {
+      padding: .65rem .7rem; border: 1px solid #cfcfcf; border-radius: 9px; font: inherit; font-weight: 400;
+    }
+    .rr input:focus, .rr textarea:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+    .rr button {
+      justify-self: start; background: var(--ink); color: #fff; border: 0;
+      padding: .75rem 1.4rem; border-radius: 9px; cursor: pointer; font: inherit; font-weight: 600;
+    }
+    .hint { font-size: .78rem; margin: 0; }
+  </style>
+
+  <script define:vars={{ CONTACT }}>
+    const form = document.getElementById('rr');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const f = new FormData(form);
+      const lines = [
+        'Category: ' + (f.get('category') || ''),
+        'What matters most: ' + (f.get('priorities') || ''),
+        'Already considering: ' + (f.get('considering') || ''),
+        'Dealbreakers: ' + (f.get('dealbreakers') || ''),
+        'Reply email: ' + (f.get('email') || ''),
+      ];
+      const subject = 'Research Request: ' + (f.get('category') || '');
+      const href = 'mailto:' + CONTACT + '?subject=' + encodeURIComponent(subject) +
+        '&body=' + encodeURIComponent(lines.join('\n'));
+      window.location.href = href;
+    });
+  </script>
+</Base>

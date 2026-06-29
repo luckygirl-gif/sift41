@@ -1,0 +1,47 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const products = await getCollection('products');
+  return products.map((p) => ({ params: { slug: p.id }, props: { product: p } }));
+}
+
+const { product } = Astro.props;
+const d = product.data;
+const { Content } = await render(product);
+const date = d.date instanceof Date ? d.date.toISOString().slice(0, 10) : String(d.date);
+---
+<Base title={`${d.title} — SIFT41`} description={d.summary}>
+  <p class="back"><a href={url('/')}>← All products</a></p>
+  <article class="product">
+    <div class="imgwrap"><img src={url(d.image)} alt={d.title} /></div>
+    <div class="info">
+      <span class="cat">{d.category} · {date}</span>
+      <h1>{d.title}</h1>
+      {d.brand && <p class="brand muted">{d.brand}</p>}
+      {d.price && <p class="price">{d.price}</p>}
+      <div class="body"><Content /></div>
+      {d.buyUrl && (
+        <a class="buy" href={d.buyUrl} target="_blank" rel="noopener sponsored">Get It →</a>
+      )}
+      <p class="disc muted">Affiliate link — we may earn a small commission at no extra cost to you.</p>
+    </div>
+  </article>
+  <style>
+    .back { font-size: .85rem; margin: 0 0 1rem; }
+    .product { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
+    .imgwrap { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: #f6f6f6; }
+    .cat { color: var(--muted); font-size: .82rem; text-transform: lowercase; }
+    .body { margin: 1rem 0 1.25rem; }
+    .body :global(p) { margin: .6rem 0; }
+    .buy {
+      display: inline-block; background: var(--accent); color: #fff; text-decoration: none;
+      padding: .75rem 1.4rem; border-radius: 9px; font-weight: 600;
+    }
+    .buy:hover { filter: brightness(.95); }
+    .disc { font-size: .76rem; margin-top: .7rem; }
+    @media (max-width: 720px) { .product { grid-template-columns: 1fr; gap: 1.4rem; } }
+  </style>
+</Base>

@@ -1,0 +1,74 @@
+---
+import { url } from '../lib/url';
+const {
+  title = 'SIFT41',
+  description = 'Curated health, beauty & wellness picks worth your attention.',
+} = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href={url('/favicon.svg')} />
+    <!-- 제휴: 구매 링크는 Amazon Associates(amzn.to)로 직접 추적됨. 별도 스크립트 불필요. -->
+    <style is:global>
+      :root {
+        --accent: #d6552b;
+        --ink: #191919;
+        --muted: #6f6f6f;
+        --line: #ececec;
+        --bg: #ffffff;
+      }
+      * { box-sizing: border-box; }
+      html {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: var(--ink); background: var(--bg); line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      body { margin: 0; }
+      img { max-width: 100%; display: block; }
+      a { color: inherit; }
+      header.site {
+        display: flex; align-items: center; justify-content: space-between;
+        max-width: 1080px; margin: 0 auto; padding: 1.1rem 1.25rem;
+        border-bottom: 1px solid var(--line);
+      }
+      header.site .brand {
+        font-weight: 800; letter-spacing: .06em; font-size: 1.2rem; text-decoration: none;
+      }
+      header.site .brand b { color: var(--accent); }
+      header.site nav { display: flex; gap: 1.4rem; font-size: .92rem; }
+      header.site nav a { text-decoration: none; color: var(--muted); }
+      header.site nav a:hover { color: var(--ink); }
+      main { max-width: 1080px; margin: 0 auto; padding: 1.75rem 1.25rem 3rem; }
+      footer.site {
+        max-width: 1080px; margin: 0 auto; padding: 1.6rem 1.25rem 2.5rem;
+        border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem;
+      }
+      h1 { font-size: 1.95rem; line-height: 1.2; margin: .1em 0 .35em; letter-spacing: -.01em; }
+      h2 { font-size: 1.15rem; margin: 1.6em 0 .4em; }
+      .muted { color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <a class="brand" href={url('/')}>SIFT<b>41</b></a>
+      <nav>
+        <a href={url('/')}>Products</a>
+        <a href={url('/about/')}>About</a>
+        <a href={url('/research-request/')}>Request Research</a>
+      </nav>
+    </header>
+    <main><slot /></main>
+    <footer class="site">
+      <p>Some links are affiliate links — we may earn a small commission at no additional cost to you. This supports our testing and research.</p>
+      <p>© SIFT41 · We don't accept sponsorships. We don't chase trends.</p>
+    </footer>
+  </body>
+</html>
