@@ -14,5 +14,5 @@ descEn: |-
   
   We're five bottles in and continue to recommend it. It's the kind of product that works consistently without disruption, which is exactly what we look for.
 descKo: |-
-  이 세럼은 제 기준에서 효과가 확실했어요. 바르고 나서 최근에 생긴 뾰루지 자국이 눈에 띄게 빨리 옅어지더니 결국 거의 사라졌고, 전체적으로 피부톤도 훨씬 맑아진 느낌이 들었어요. 잡티도 꽤 개선됐는데, 무엇보다 피부 진정이랑 열감 잡는 데 정말 도움이 돼서 부담 없이 계속 손이가요. 지금 벌써 5통째 사용 중이라 친구들에게도 계속 소개하고 있어요.
+  여드름 자국이랑 칙칙함 때문에 쓰기 시작했는데 효과 확실했어요. 새로 난 자국이 눈에 띄게 빨리 옅어지고 결국 거의 사라졌고, 전체 톤도 맑아졌어요. 무엇보다 피부 열나고 예민할 때 진정이 잘 돼서 손이 계속 가요. 지금 5통째 쓰는 중이고, 주변에도 계속 추천하는 찐 꾸준템이에요.
 ---
