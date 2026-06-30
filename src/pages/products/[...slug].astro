@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { url } from '../../lib/url';
 
@@ -10,38 +10,41 @@ export async function getStaticPaths() {
 
 const { product } = Astro.props;
 const d = product.data;
-const { Content } = await render(product);
 const date = d.date instanceof Date ? d.date.toISOString().slice(0, 10) : String(d.date);
+const CAT_KO = { beauty: '뷰티', health: '건강', home: '홈' };
+const catKo = CAT_KO[d.category] || d.category;
 ---
-<Base title={`${d.title} — SIFT41`} description={d.summary}>
-  <p class="back"><a href={url('/')}>← All products</a></p>
+<Base title={`${d.title} — Sift41`} description={d.summary}>
+  <p class="back"><a href={url('/')}><span class="t-en">← All products</span><span class="t-ko">← 전체 제품</span></a></p>
   <article class="product">
     <div class="imgwrap"><img src={url(d.image)} alt={d.title} /></div>
     <div class="info">
-      <span class="cat">{d.category} · {date}</span>
+      <span class="cat"><span class="t-en">{d.category}</span><span class="t-ko">{catKo}</span> · {date}</span>
       <h1>{d.title}</h1>
       {d.brand && <p class="brand muted">{d.brand}</p>}
       {d.price && <p class="price">{d.price}</p>}
-      <div class="body"><Content /></div>
+      <div class="body t-en">{d.descEn || d.descKo}</div>
+      <div class="body t-ko">{d.descKo || d.descEn}</div>
       {d.buyUrl && (
-        <a class="buy" href={d.buyUrl} target="_blank" rel="noopener sponsored">Get It →</a>
+        <a class="buy" href={d.buyUrl} target="_blank" rel="noopener sponsored">
+          <span class="t-en">Get It →</span><span class="t-ko">구매하기 →</span>
+        </a>
       )}
-      <p class="disc muted">Affiliate link — we may earn a small commission at no extra cost to you.</p>
+      <p class="disc muted">
+        <span class="t-en">Affiliate link — we may earn a small commission at no extra cost to you.</span>
+        <span class="t-ko">제휴 링크 — 추가 비용 없이 약간의 수수료가 저희에게 돌아갑니다.</span>
+      </p>
     </div>
   </article>
   <style>
-    .back { font-size: .85rem; margin: 0 0 1rem; }
-    .product { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
-    .imgwrap { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: #f6f6f6; }
-    .cat { color: var(--muted); font-size: .82rem; text-transform: lowercase; }
-    .body { margin: 1rem 0 1.25rem; }
-    .body :global(p) { margin: .6rem 0; }
-    .buy {
-      display: inline-block; background: var(--accent); color: #fff; text-decoration: none;
-      padding: .75rem 1.4rem; border-radius: 9px; font-weight: 600;
-    }
-    .buy:hover { filter: brightness(.95); }
-    .disc { font-size: .76rem; margin-top: .7rem; }
-    @media (max-width: 720px) { .product { grid-template-columns: 1fr; gap: 1.4rem; } }
+    .back { font-size:.85rem; margin:0 0 1rem; }
+    .product { display:grid; grid-template-columns:1fr 1fr; gap:2.5rem; align-items:start; }
+    .imgwrap { border:1px solid var(--line); border-radius:14px; overflow:hidden; background:#f6f6f6; }
+    .cat { color:var(--muted); font-size:.82rem; text-transform:lowercase; }
+    .body { margin:1rem 0 1.25rem; white-space:pre-line; }
+    .buy { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:.75rem 1.4rem; border-radius:9px; font-weight:600; }
+    .buy:hover { filter:brightness(.95); }
+    .disc { font-size:.76rem; margin-top:.7rem; }
+    @media (max-width:720px){ .product{ grid-template-columns:1fr; gap:1.4rem; } }
   </style>
 </Base>

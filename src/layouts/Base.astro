@@ -7,7 +7,7 @@ const {
 } = Astro.props;
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,78 +17,17 @@ const {
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <link rel="icon" href={url('/favicon.svg')} />
-    <!-- 제휴: 구매 링크는 Amazon Associates(amzn.to) / Sovrn(sovrn.co)로 직접 추적됨. -->
-    <style is:global>
-      :root {
-        --accent: #F5821F;
-        --ink: #191919;
-        --muted: #6f6f6f;
-        --line: #ececec;
-        --bg: #ffffff;
-      }
-      * { box-sizing: border-box; }
-      html {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        color: var(--ink); background: var(--bg); line-height: 1.6;
-        -webkit-font-smoothing: antialiased;
-      }
-      body { margin: 0; }
-      img { max-width: 100%; }
-      a { color: inherit; }
-      header.site {
-        display: flex; align-items: center; justify-content: space-between;
-        max-width: 1080px; margin: 0 auto; padding: 1.1rem 1.25rem;
-        border-bottom: 1px solid var(--line);
-      }
-      header.site .brand { display: inline-flex; align-items: center; }
-      header.site nav { display: flex; gap: 1.4rem; font-size: .92rem; }
-      header.site nav a { text-decoration: none; color: var(--muted); }
-      header.site nav a:hover { color: var(--ink); }
-      main { max-width: 1080px; margin: 0 auto; padding: 1.75rem 1.25rem 3rem; }
-      footer.site {
-        max-width: 1080px; margin: 0 auto; padding: 1.6rem 1.25rem 2.5rem;
-        border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem;
-      }
-      footer.site .brandline { display: flex; align-items: center; gap: .5rem; margin-top: .4rem; }
-      h1 { font-size: 1.95rem; line-height: 1.2; margin: .1em 0 .35em; letter-spacing: -.01em; }
-      h2 { font-size: 1.15rem; margin: 1.6em 0 .4em; }
-      .muted { color: var(--muted); }
-
-      /* S41 원형 홈 버튼 — 모든 페이지 우하단 고정 */
-      .home-fab {
-        position: fixed; right: 20px; bottom: 20px; z-index: 50;
-        width: 54px; height: 54px; border-radius: 50%;
-        display: inline-flex; align-items: center; justify-content: center;
-        box-shadow: 0 4px 14px rgba(0, 0, 0, .18);
-        transition: transform .15s ease, box-shadow .15s ease;
-      }
-      .home-fab img { width: 100%; height: 100%; display: block; border-radius: 50%; }
-      .home-fab:hover { transform: translateY(-2px) scale(1.06); box-shadow: 0 6px 22px rgba(0, 0, 0, .26); }
-      .home-fab:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
-      @media (max-width: 600px) { .home-fab { right: 14px; bottom: 14px; width: 48px; height: 48px; } }
-    </style>
-  </head>
-  <body>
-    <header class="site">
-      <a class="brand" href={url('/')} aria-label="Sift41 home"><Logo height={26} /></a>
-      <nav>
-        <a href={url('/')}>Products</a>
-        <a href={url('/about/')}>About</a>
-        <a href={url('/research-request/')}>Request Research</a>
-      </nav>
-    </header>
-    <main><slot /></main>
-    <footer class="site">
-      <p>Some links are affiliate links — we may earn a small commission at no additional cost to you. This supports our testing and research.</p>
-      <p class="brandline"><Logo height={16} /> <span>· We don't accept sponsorships. We don't chase trends.</span></p>
-    </footer>
-
-    <!-- 사이트 전반 홈 버튼 (S41 원형) -->
-    <a class="home-fab" href={url('/')} aria-label="Home — Sift41" title="Home">
-      <img src={url('/logo-mark.svg')} alt="Home" />
-    </a>
-
-    <!-- Sovrn //Commerce — outbound 상품 링크 자동 제휴화 (sift41.com) -->
+    <script is:inline>
+      (function () {
+        try {
+          var s = localStorage.getItem('sift41-lang');
+          var l = s || (((navigator.language || 'en').toLowerCase().indexOf('ko') === 0) ? 'ko' : 'en');
+          document.documentElement.setAttribute('data-lang', l);
+          document.documentElement.lang = l;
+        } catch (e) { document.documentElement.setAttribute('data-lang', 'en'); }
+      })();
+    </script>
+    <!-- Sovrn //Commerce -->
     <script type="text/javascript" is:inline>
       var vglnk = { key: 'c855bdca0941a37e3bafa21514e8907b' };
       (function (d, t) {
@@ -96,6 +35,74 @@ const {
         s.src = '//cdn.viglink.com/api/vglnk.js';
         var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
       }(document, 'script'));
+    </script>
+    <style is:global>
+      :root { --accent:#F5821F; --ink:#191919; --muted:#6f6f6f; --line:#ececec; --bg:#ffffff; }
+      * { box-sizing: border-box; }
+      html { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; -webkit-font-smoothing:antialiased; }
+      body { margin:0; }
+      img { max-width:100%; }
+      a { color:inherit; }
+      /* 언어 토글 */
+      html[data-lang="en"] .t-ko { display:none !important; }
+      html[data-lang="ko"] .t-en { display:none !important; }
+      header.site { display:flex; align-items:center; justify-content:space-between; max-width:1080px; margin:0 auto; padding:1.1rem 1.25rem; border-bottom:1px solid var(--line); }
+      header.site .brand { display:inline-flex; align-items:center; }
+      header.site nav { display:flex; gap:1.25rem; align-items:center; font-size:.92rem; }
+      header.site nav a { text-decoration:none; color:var(--muted); }
+      header.site nav a:hover { color:var(--ink); }
+      .lang-toggle { border:1px solid var(--line); background:#fff; border-radius:999px; padding:.3rem .75rem; cursor:pointer; font:inherit; font-size:.8rem; color:var(--ink); }
+      .lang-toggle:hover { border-color:var(--accent); color:var(--accent); }
+      main { max-width:1080px; margin:0 auto; padding:1.75rem 1.25rem 3rem; }
+      footer.site { max-width:1080px; margin:0 auto; padding:1.6rem 1.25rem 2.5rem; border-top:1px solid var(--line); color:var(--muted); font-size:.82rem; }
+      footer.site .brandline { display:flex; align-items:center; gap:.5rem; margin-top:.4rem; }
+      h1 { font-size:1.95rem; line-height:1.2; margin:.1em 0 .35em; letter-spacing:-.01em; }
+      h2 { font-size:1.15rem; margin:1.6em 0 .4em; }
+      .muted { color:var(--muted); }
+      .home-fab { position:fixed; right:20px; bottom:20px; z-index:50; width:54px; height:54px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; box-shadow:0 4px 14px rgba(0,0,0,.18); transition:transform .15s ease, box-shadow .15s ease; }
+      .home-fab img { width:100%; height:100%; display:block; border-radius:50%; }
+      .home-fab:hover { transform:translateY(-2px) scale(1.06); box-shadow:0 6px 22px rgba(0,0,0,.26); }
+      @media (max-width:600px){ .home-fab{ right:14px; bottom:14px; width:48px; height:48px; } header.site nav{ gap:.9rem; } }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <a class="brand" href={url('/')} aria-label="Sift41 home"><Logo height={26} /></a>
+      <nav>
+        <a href={url('/')}><span class="t-en">Products</span><span class="t-ko">제품</span></a>
+        <a href={url('/about/')}><span class="t-en">About</span><span class="t-ko">소개</span></a>
+        <a href={url('/research-request/')}><span class="t-en">Request Research</span><span class="t-ko">리서치 요청</span></a>
+        <button id="langToggle" class="lang-toggle" type="button" aria-label="Switch language">
+          <span class="t-en">한국어</span><span class="t-ko">EN</span>
+        </button>
+      </nav>
+    </header>
+    <main><slot /></main>
+    <footer class="site">
+      <p>
+        <span class="t-en">Some links are affiliate links — we may earn a small commission at no additional cost to you. This supports our testing and research.</span>
+        <span class="t-ko">일부 링크는 제휴 링크예요. 추가 비용 없이 약간의 수수료가 저희에게 돌아가며, 이는 테스트와 리서치에 쓰입니다.</span>
+      </p>
+      <p class="brandline"><Logo height={16} />
+        <span>
+          <span class="t-en">· We don't accept sponsorships. We don't chase trends.</span>
+          <span class="t-ko">· 협찬을 받지 않고, 유행을 좇지 않습니다.</span>
+        </span>
+      </p>
+    </footer>
+    <a class="home-fab" href={url('/')} aria-label="Home — Sift41" title="Home"><img src={url('/logo-mark.svg')} alt="Home" /></a>
+    <script is:inline>
+      (function () {
+        var b = document.getElementById('langToggle');
+        if (!b) return;
+        b.addEventListener('click', function () {
+          var c = document.documentElement.getAttribute('data-lang') === 'ko' ? 'ko' : 'en';
+          var n = c === 'ko' ? 'en' : 'ko';
+          document.documentElement.setAttribute('data-lang', n);
+          document.documentElement.lang = n;
+          try { localStorage.setItem('sift41-lang', n); } catch (e) {}
+        });
+      })();
     </script>
   </body>
 </html>

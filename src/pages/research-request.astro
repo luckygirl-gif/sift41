@@ -2,46 +2,52 @@
 import Base from '../layouts/Base.astro';
 const CONTACT = 'infosift41@gmail.com';
 ---
-<Base title="Request Research — SIFT41" description="Tell us what to sift. We'll research it properly and share what holds up.">
+<Base title="Request Research — Sift41" description="Tell us what to sift. We'll research it properly and share what holds up.">
   <article class="page">
-    <h1>Request Research</h1>
-    <p class="lead">Want us to sift it for you? Tell us what you're after. We'll look into it properly — sifting through reviews, checking sources against each other, and testing what deserves a closer look. If something proves itself, it'll earn a place here.</p>
+    <h1><span class="t-en">Request Research</span><span class="t-ko">리서치 요청</span></h1>
+    <p class="lead">
+      <span class="t-en">Want us to sift it for you? Tell us what you're after. We'll look into it properly — sifting through reviews, checking sources against each other, and testing what deserves a closer look. If something proves itself, it'll earn a place here.</span>
+      <span class="t-ko">대신 걸러드릴까요? 찾고 계신 걸 알려주세요. 리뷰를 샅샅이 보고, 출처를 서로 대조하고, 자세히 볼 가치가 있는 건 직접 테스트해서 제대로 알아봐요. 스스로 증명되면 여기에 오르게 됩니다.</span>
+    </p>
 
     <form id="rr" class="rr">
-      <label>Product category you're researching
+      <label>
+        <span class="t-en">Product category you're researching</span><span class="t-ko">찾고 있는 제품 카테고리</span>
         <input name="category" required placeholder="e.g. vitamin C serum" />
       </label>
-      <label>What matters most (budget, ingredients, allergies, goals)
+      <label>
+        <span class="t-en">What matters most (budget, ingredients, allergies, goals)</span><span class="t-ko">가장 중요한 점 (예산, 성분, 알레르기, 목표)</span>
         <textarea name="priorities" rows="3" required></textarea>
       </label>
-      <label>Options you're already considering
+      <label>
+        <span class="t-en">Options you're already considering</span><span class="t-ko">이미 고려 중인 제품</span>
         <textarea name="considering" rows="2"></textarea>
       </label>
-      <label>Dealbreakers or must-avoids
+      <label>
+        <span class="t-en">Dealbreakers or must-avoids</span><span class="t-ko">꼭 피하고 싶은 점</span>
         <textarea name="dealbreakers" rows="2"></textarea>
       </label>
-      <label>Email for follow-up
+      <label>
+        <span class="t-en">Email for follow-up</span><span class="t-ko">회신받을 이메일</span>
         <input type="email" name="email" required placeholder="you@example.com" />
       </label>
-      <button type="submit">Submit Request</button>
-      <p class="hint muted">Opens your email app addressed to {CONTACT}.</p>
+      <button type="submit"><span class="t-en">Submit Request</span><span class="t-ko">요청 보내기</span></button>
+      <p class="hint muted">
+        <span class="t-en">Opens your email app addressed to {CONTACT}.</span>
+        <span class="t-ko">{CONTACT} 주소로 이메일 앱이 열려요.</span>
+      </p>
     </form>
   </article>
 
   <style>
-    .page { max-width: 600px; }
-    .lead { color: var(--muted); margin-bottom: 1.5rem; }
-    .rr { display: grid; gap: 1rem; }
-    .rr label { display: grid; gap: .35rem; font-size: .9rem; font-weight: 600; }
-    .rr input, .rr textarea {
-      padding: .65rem .7rem; border: 1px solid #cfcfcf; border-radius: 9px; font: inherit; font-weight: 400;
-    }
-    .rr input:focus, .rr textarea:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
-    .rr button {
-      justify-self: start; background: var(--ink); color: #fff; border: 0;
-      padding: .75rem 1.4rem; border-radius: 9px; cursor: pointer; font: inherit; font-weight: 600;
-    }
-    .hint { font-size: .78rem; margin: 0; }
+    .page { max-width:600px; }
+    .lead { color:var(--muted); margin-bottom:1.5rem; }
+    .rr { display:grid; gap:1rem; }
+    .rr label { display:grid; gap:.35rem; font-size:.9rem; font-weight:600; }
+    .rr input, .rr textarea { padding:.65rem .7rem; border:1px solid #cfcfcf; border-radius:9px; font:inherit; font-weight:400; }
+    .rr input:focus, .rr textarea:focus { outline:2px solid var(--accent); border-color:var(--accent); }
+    .rr button { justify-self:start; background:var(--ink); color:#fff; border:0; padding:.75rem 1.4rem; border-radius:9px; cursor:pointer; font:inherit; font-weight:600; }
+    .hint { font-size:.78rem; margin:0; }
   </style>
 
   <script define:vars={{ CONTACT }}>
@@ -57,8 +63,7 @@ const CONTACT = 'infosift41@gmail.com';
         'Reply email: ' + (f.get('email') || ''),
       ];
       const subject = 'Research Request: ' + (f.get('category') || '');
-      const href = 'mailto:' + CONTACT + '?subject=' + encodeURIComponent(subject) +
-        '&body=' + encodeURIComponent(lines.join('\n'));
+      const href = 'mailto:' + CONTACT + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n'));
       window.location.href = href;
     });
   </script>

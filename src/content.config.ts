@@ -12,6 +12,8 @@ const products = defineCollection({
     buyUrl: z.string().optional().default(''),
     date: z.coerce.date(),
     summary: z.string().optional().default(''),
+    descEn: z.string().optional().default(''),
+    descKo: z.string().optional().default(''),
   }),
 });
 

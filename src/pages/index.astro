@@ -7,16 +7,25 @@ const products = (await getCollection('products')).sort(
   (a, b) => +new Date(b.data.date) - +new Date(a.data.date)
 );
 const categories = [...new Set(products.map((p) => p.data.category))].sort();
+const CAT_KO = { beauty: '뷰티', health: '건강', home: '홈' };
 ---
-<Base title="SIFT41 — Curated picks">
+<Base title="Sift41 — Curated picks">
   <section class="hero">
-    <h1>Curated picks worth your attention.</h1>
-    <p class="muted">We investigate, compare evidence, and test what holds up over time. What remains is a short list we stand behind.</p>
+    <h1>
+      <span class="t-en">Curated picks worth your attention.</span>
+      <span class="t-ko">믿고 볼 수 있는, 엄선한 제품들.</span>
+    </h1>
+    <p class="muted">
+      <span class="t-en">We investigate, compare evidence, and test what holds up over time. What remains is a short list we stand behind.</span>
+      <span class="t-ko">직접 조사하고 근거를 비교하고, 시간이 지나도 살아남는 것만 테스트해요. 그렇게 남은, 저희가 자신 있게 추천하는 짧은 목록이에요.</span>
+    </p>
   </section>
 
   <nav class="filters" aria-label="Filter by category">
-    <button data-cat="all" class="active">All</button>
-    {categories.map((c) => <button data-cat={c}>{c}</button>)}
+    <button data-cat="all" class="active"><span class="t-en">All</span><span class="t-ko">전체</span></button>
+    {categories.map((c) => (
+      <button data-cat={c}><span class="t-en">{c}</span><span class="t-ko">{CAT_KO[c] || c}</span></button>
+    ))}
   </nav>
 
   <section class="grid">
@@ -24,16 +33,12 @@ const categories = [...new Set(products.map((p) => p.data.category))].sort();
   </section>
 
   <style>
-    .hero { margin: .5rem 0 1.5rem; max-width: 640px; }
-    .hero p { margin-top: .2rem; }
-    .filters { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.4rem; }
-    .filters button {
-      border: 1px solid var(--line); background: #fff; border-radius: 999px;
-      padding: .35rem .9rem; cursor: pointer; font: inherit; font-size: .85rem; color: var(--muted);
-      text-transform: lowercase;
-    }
-    .filters button.active { background: var(--ink); color: #fff; border-color: var(--ink); }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 1.1rem; }
+    .hero { margin:.5rem 0 1.5rem; max-width:640px; }
+    .hero p { margin-top:.2rem; }
+    .filters { display:flex; gap:.5rem; flex-wrap:wrap; margin-bottom:1.4rem; }
+    .filters button { border:1px solid var(--line); background:#fff; border-radius:999px; padding:.35rem .9rem; cursor:pointer; font:inherit; font-size:.85rem; color:var(--muted); text-transform:lowercase; }
+    .filters button.active { background:var(--ink); color:#fff; border-color:var(--ink); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(210px, 1fr)); gap:1.1rem; }
   </style>
 
   <script>
