@@ -6,7 +6,7 @@ image: "/images/products/thorne-basic-b-complex.jpg"
 price: ""
 buyUrl: "https://amzn.to/3Z2twJx?ref=sift41.com"
 date: 2026-01-29
-summary: "Get It! We didn’t choose Thorne Basic B Complex because it was loud. We chose it because it kept passing our filter when others didn’t. First, we read the fine print. Most B complexes fall apart on forms or transparency, with cheap versions or proprietary blends that hide"
+summary: "Active forms (5-MTHF, methyl B12, P-5-P), sensible doses, zero fillers — the B-complex that kept passing our filter."
 descEn: |-
   We didn’t choose Thorne Basic B Complex because it was loud. We chose it because it kept passing our filter when others didn’t.
   

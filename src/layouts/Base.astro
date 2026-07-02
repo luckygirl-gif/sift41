@@ -4,7 +4,11 @@ import Logo from '../components/Logo.astro';
 const {
   title = 'Sift41',
   description = 'Curated health, beauty & wellness picks worth your attention.',
+  image = '',
 } = Astro.props;
+const site = Astro.site ?? new URL('https://www.sift41.com');
+const canonical = new URL(Astro.url.pathname, site).href;
+const ogImage = new URL(image || '/og-default.png', site).href;
 ---
 <!doctype html>
 <html lang="en" data-lang="en">
@@ -13,10 +17,17 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content="Sift41" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogImage} />
     <link rel="icon" href={url('/favicon.svg')} />
+    <link rel="apple-touch-icon" href={url('/apple-touch-icon.png')} />
     <script is:inline>
       (function () {
         try {
@@ -43,7 +54,6 @@ const {
       body { margin:0; }
       img { max-width:100%; }
       a { color:inherit; }
-      /* 언어 토글 */
       html[data-lang="en"] .t-ko { display:none !important; }
       html[data-lang="ko"] .t-en { display:none !important; }
       header.site { display:flex; align-items:center; justify-content:space-between; max-width:1080px; margin:0 auto; padding:1.1rem 1.25rem; border-bottom:1px solid var(--line); }

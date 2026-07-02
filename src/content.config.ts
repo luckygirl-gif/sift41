@@ -10,6 +10,11 @@ const products = defineCollection({
     image: z.string(),
     price: z.string().optional().default(''),
     buyUrl: z.string().optional().default(''),
+    links: z.array(z.object({
+      label: z.string(),
+      labelKo: z.string().optional().default(''),
+      url: z.string(),
+    })).optional().default([]),
     date: z.coerce.date(),
     summary: z.string().optional().default(''),
     descEn: z.string().optional().default(''),

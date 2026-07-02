@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/url';
+---
+<Base title="404 — Sift41" description="Page not found.">
+  <section class="nf">
+    <h1><span class="t-en">Page not found</span><span class="t-ko">페이지를 못 찾았어요</span></h1>
+    <p class="muted">
+      <span class="t-en">The link may be old or mistyped. Everything we recommend lives on the home page.</span>
+      <span class="t-ko">주소가 바뀌었거나 오타일 수 있어요. 추천 제품은 전부 홈에 모여 있어요.</span>
+    </p>
+    <a class="homebtn" href={url('/')}><span class="t-en">← Back to products</span><span class="t-ko">← 제품 보러 가기</span></a>
+  </section>
+  <style>
+    .nf { max-width:560px; margin:3rem auto; text-align:center; }
+    .homebtn { display:inline-block; margin-top:1.2rem; background:var(--accent); color:#fff; text-decoration:none; padding:.7rem 1.3rem; border-radius:9px; font-weight:600; }
+  </style>
+</Base>

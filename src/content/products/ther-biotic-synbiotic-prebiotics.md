@@ -6,7 +6,7 @@ image: "/images/products/ther-biotic-synbiotic-prebiotics.jpg"
 price: ""
 buyUrl: "https://amzn.to/49LNaQ6?ref=sift41.com"
 date: 2026-01-29
-summary: "Get It! We tried to rebuild our gut the same way you rebuild anything fragile: calm it down first, then support it consistently. After everything our digestion had been through, we needed something gentle that could ease irritation, improve regularity, and help restore balance without making bloatin"
+summary: "A gentle synbiotic pairing targeted probiotic strains with low-FODMAP prebiotic fiber — regularity and balance without the bloat."
 descEn: |-
   We tried to rebuild our gut the same way you rebuild anything fragile: calm it down first, then support it consistently.
   

@@ -6,7 +6,7 @@ image: "/images/products/espoir-brow-cara.jpg"
 price: ""
 buyUrl: "https://amzn.to/4rrGL2s?ref=sift41.com"
 date: 2026-02-05
-summary: "Get It! Brow Cara: The Effortless Upgrade Your Routine Deserves Brow cara transforms scattered, unruly brows into polished, dimensional arches with nothing more than a few upward strokes. The brush does the work for you, distributing tinted gel evenly as you sweep upward. There's no skill threshold "
+summary: "Espoir Brow Cara tames and tints brows in a few upward strokes — a natural, feathered finish with zero technique required."
 descEn: |-
   Brow Cara: The Effortless Upgrade Your Routine Deserves
   

@@ -6,7 +6,7 @@ image: "/images/products/omegavia-ultra-concentrated.jpg"
 price: ""
 buyUrl: "https://amzn.to/4t2cdGl?ref=sift41.com"
 date: 2026-01-29
-summary: "Why We Chose OmegaVia Get It! We went through a lot of omega-3s before landing here. Most looked promising...until we started asking harder questions. Sourcing. We wanted small fish like anchovy and sardine, lower on the food chain and less likely to accumulate heavy metals. Purification. \"Purified\""
+summary: "Small-fish sourcing, heat-free CO2 extraction, high EPA+DHA in rTG form, IFOS-verified — the omega-3 we couldn't poke holes in."
 descEn: |-
   Why We Chose OmegaVia
   

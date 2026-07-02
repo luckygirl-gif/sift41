@@ -10,7 +10,16 @@ const CONTACT = 'infosift41@gmail.com';
       <span class="t-ko">찾는 거 대신 걸러드릴까요? 뭐 찾는지만 알려주세요. 리뷰 싹 훑고, 출처 서로 대조하고, 제대로 볼 가치 있으면 직접 테스트까지 해요. 통과하면 여기 올라가요.</span>
     </p>
 
-    <form id="rr" class="rr">
+    <div id="sent" class="sent" hidden>
+      <p><span class="t-en">✅ Request sent — we'll get back to you by email.</span><span class="t-ko">✅ 접수됐어요 — 이메일로 답드릴게요.</span></p>
+    </div>
+
+    <form id="rr" class="rr" action="https://formsubmit.co/infosift41@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Research Request — Sift41" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="https://www.sift41.com/research-request/?sent=1" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
       <label>
         <span class="t-en">Product category you're researching</span><span class="t-ko">찾고 있는 제품 카테고리</span>
         <input name="category" required placeholder="e.g. vitamin C serum" />
@@ -33,8 +42,8 @@ const CONTACT = 'infosift41@gmail.com';
       </label>
       <button type="submit"><span class="t-en">Submit Request</span><span class="t-ko">요청 보내기</span></button>
       <p class="hint muted">
-        <span class="t-en">Opens your email app addressed to {CONTACT}.</span>
-        <span class="t-ko">{CONTACT} 주소로 이메일 앱이 열려요.</span>
+        <span class="t-en">Goes straight to {CONTACT}.</span>
+        <span class="t-ko">{CONTACT}로 바로 전달돼요.</span>
       </p>
     </form>
   </article>
@@ -42,6 +51,7 @@ const CONTACT = 'infosift41@gmail.com';
   <style>
     .page { max-width:600px; }
     .lead { color:var(--muted); margin-bottom:1.5rem; }
+    .sent { background:#f0faf0; border:1px solid #cde8cd; border-radius:10px; padding: .8rem 1rem; margin-bottom:1.2rem; }
     .rr { display:grid; gap:1rem; }
     .rr label { display:grid; gap:.35rem; font-size:.9rem; font-weight:600; }
     .rr input, .rr textarea { padding:.65rem .7rem; border:1px solid #cfcfcf; border-radius:9px; font:inherit; font-weight:400; }
@@ -50,21 +60,10 @@ const CONTACT = 'infosift41@gmail.com';
     .hint { font-size:.78rem; margin:0; }
   </style>
 
-  <script define:vars={{ CONTACT }}>
-    const form = document.getElementById('rr');
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const f = new FormData(form);
-      const lines = [
-        'Category: ' + (f.get('category') || ''),
-        'What matters most: ' + (f.get('priorities') || ''),
-        'Already considering: ' + (f.get('considering') || ''),
-        'Dealbreakers: ' + (f.get('dealbreakers') || ''),
-        'Reply email: ' + (f.get('email') || ''),
-      ];
-      const subject = 'Research Request: ' + (f.get('category') || '');
-      const href = 'mailto:' + CONTACT + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n'));
-      window.location.href = href;
-    });
+  <script is:inline>
+    if (location.search.indexOf('sent=1') !== -1) {
+      var s = document.getElementById('sent');
+      if (s) s.hidden = false;
+    }
   </script>
 </Base>

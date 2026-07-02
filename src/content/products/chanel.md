@@ -1,12 +1,12 @@
 ---
-title: "CHANEL"
-brand: ""
+title: "Chanel Baume Essentiel Multi-Use Glow Stick"
+brand: "Chanel"
 category: "beauty"
 image: "/images/products/chanel.webp"
 price: ""
 buyUrl: "https://sovrn.co/4ihahgw?ref=sift41.com"
 date: 2026-01-27
-summary: "BAUME ESSENTIEL Multi-Use Glow Stick Get It! The texture melts into your skin the second you apply it, creating a glossy sheen that smooths everything out and makes you look instantly more polished. Up close, the finish stays subtle and clean, but from any normal distance, your complexion looks"
+summary: "Chanel Baume Essentiel melts in for a subtle, lit-from-within glow — no glitter, no shimmer, just healthier-looking skin."
 descEn: |-
   BAUME ESSENTIEL Multi-Use Glow Stick
   
