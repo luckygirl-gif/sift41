@@ -6,3 +6,6 @@ dist/
 
 shots/
 backup/sample.html
+
+# Ghost 백업(개인정보 포함) — 절대 공개 레포에 올리지 않음
+Ghostbackup/
