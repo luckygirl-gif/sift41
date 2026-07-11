@@ -12,7 +12,9 @@
 
 진행:
 
-1) https://search.google.com/search-console 접속, 구글 계정으로 로그인.
+1) https://search.google.com/search-console 접속.
+   반드시 infosift41@gmail.com 계정으로 로그인되어 있어야 한다.
+   다른 계정(개인 계정 등)으로 로그인돼 있으면 계정 전환부터 할 것.
    (로그인 창이 뜨면 사용자에게 직접 로그인하라고 요청할 것. 비밀번호 대신 입력 금지)
 
 2) 속성 추가 → 왼쪽 "도메인(Domain)" 유형 선택 → sift41.com 입력 → 계속.
