@@ -1,6 +1,7 @@
 ---
 import { url } from '../lib/url';
 import Logo from '../components/Logo.astro';
+import Analytics from '../components/Analytics.astro';
 const {
   title = 'Sift41',
   description = 'Curated health, beauty & wellness picks worth your attention.',
@@ -38,6 +39,7 @@ const ogImage = new URL(image || '/og-default.png', site).href;
         } catch (e) { document.documentElement.setAttribute('data-lang', 'en'); }
       })();
     </script>
+    <Analytics />
     <!-- Sovrn //Commerce -->
     <script type="text/javascript" is:inline>
       var vglnk = { key: 'c855bdca0941a37e3bafa21514e8907b' };

@@ -1,0 +1,46 @@
+---
+// GA4 + Microsoft Clarity + 제휴 링크 클릭 추적.
+// ID가 placeholder 상태면 아무것도 로드하지 않는다 (배포 전 실수 방지).
+const GA4_ID = 'G-LS9JXZ72DF';
+const CLARITY_ID = 'XXXXXXXXXX';
+const ga4Ready = !GA4_ID.includes('XXXX');
+const clarityReady = !CLARITY_ID.includes('XXXX');
+---
+{ga4Ready && (
+  <>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}></script>
+    <script is:inline define:vars={{ GA4_ID }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', GA4_ID);
+
+      // 외부(제휴) 링크 클릭 추적: 어떤 페이지에서 어떤 링크가 몇 번 눌리는지.
+      // Sovrn이 href를 바꿔치기 전에 원본 주소를 기록하도록 capture 단계에서 잡는다.
+      document.addEventListener('click', function (e) {
+        var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+        if (!a) return;
+        var href = a.getAttribute('href') || '';
+        if (!/^https?:\/\//i.test(href)) return;
+        var dest;
+        try { dest = new URL(href); } catch (err) { return; }
+        if (dest.hostname === location.hostname) return;
+        gtag('event', 'affiliate_click', {
+          link_domain: dest.hostname,
+          link_url: href,
+          link_text: (a.textContent || '').trim().slice(0, 80),
+          page_path: location.pathname,
+        });
+      }, true);
+    </script>
+  </>
+)}
+{clarityReady && (
+  <script is:inline define:vars={{ CLARITY_ID }}>
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", CLARITY_ID);
+  </script>
+)}
