@@ -21,27 +21,12 @@ links:
     labelKo: "Trioral — 속 회복"
     url: "https://www.amazon.com/dp/B00OG8G9UM?tag=sift41-20"
 descEn: |-
-  We looked into clean electrolyte options and quickly realized "clean" means different things depending on what you're using it for. What makes one product better than another isn't the marketing: it's the sodium dose, the sugar content, what else is in it, and whether it matches your actual needs.
-  
-  See what made the cut!
-  
-  We Sifted through electrolyte products to find clean, effective options: checking sodium levels, sugar content, sweeteners, and ingredient transparency. These are the ones that made the cut:
-  
-  • Everyday hydration: moderate sodium, no sugar, minimal extras
-  
-  Nunn
-  
-  • Workouts: sugar free. cleaner hydration solution.
-  
-  SKRATCH
-  
-  • Heavy sweating: high sodium for serious replenishment
-  
-  LMNT
-  
-  • GI recovery: glucose-based formulas that are easier on the stomach
-  
-  Trioral
+  Don't choose an electrolyte on the vague word "clean." We cross-checked sodium doses, sugar content, and additives, then sorted the field into four picks by actual use case:
+
+  * Everyday hydration: sugar-free Nuun
+  * Workouts and activity: clean-formula SKRATCH
+  * Heavy-sweat days: high-sodium LMNT
+  * Sensitive stomachs and recovery: glucose-based Trioral
 descKo: |-
   전해질 제품을 '클린'하다는 모호한 표기만 보고 고르지 마세요. 우리는 나트륨 함량, 당분, 첨가물을 꼼꼼히 대조하고 실제 사용 목적에 따라 직접 네 가지로 분류해 보았습니다.
 
