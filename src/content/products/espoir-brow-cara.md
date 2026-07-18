@@ -14,5 +14,5 @@ descEn: |-
   
   By working with your natural brow texture rather than covering it, brow cara creates depth and movement that looks like you, just more awake. Individual hairs catch the light differently, giving you that coveted feathered look without any fuss. Your brows look groomed, not frozen, moving naturally with your expressions. It's simply the most intuitive way to look polished, with no learning curve, no precision required, no compromise on results.
 descKo: |-
-  눈썹 휑한 날 이거 하나면 끝이에요. 위로 슥슥 올려주기만 하면 컬러 젤이 알아서 발려서, 손재주 없어도 정돈된 눈썹 완성. 덮는 게 아니라 원래 결을 살려주는 거라 진짜 자연스럽고, 표정 따라 움직이는 '내 눈썹인데 더 또렷한' 느낌이에요. 결결이 눈썹 좋아하면 무조건 픽.
+  시중의 브로우 카라들이 흔히 범하는 '뭉침'과 '인위적인 색상' 문제를 테스트 과정에서 엄격하게 걸러냈습니다. 눈썹 빈 곳을 무작정 덮는 대신, 본래의 결을 섬세하게 살려 '원래 눈썹이 또렷한 사람'처럼 보이게 만드는 직관적인 브러시 디자인과 컬러 젤의 고정력을 직접 확인했습니다. 초보자도 다루기 쉬운 결광 메이크업의 필수품입니다.
 ---

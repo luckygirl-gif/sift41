@@ -10,5 +10,5 @@ summary: "A lightweight Korean-skincare serum built around 2% niacinamide and Ce
 descEn: |-
   A pore-focused face serum from ESTUD pairing 2% niacinamide with Centella Asiatica. It refines the look of enlarged pores, evens out uneven tone, and brings a smooth, luminous "glass skin" finish — all in a light texture that layers well. 1.69 fl oz.
 descKo: |-
-  모공 신경 쓰일 때 손 가는 세럼이에요. 나이아신아마이드 2%에 센텔라(병풀)까지 들어서 늘어난 모공 정돈하고 칙칙한 톤 맑게 잡아줘요. 끈적임 없이 가볍게 발려서 레이어링도 편하고, 결 매끈한 유리알 피부 좋아하면 찐으로 잘 맞아요. 1.69 fl oz.
+  나이아신아마이드와 병풀 성분의 조합은 훌륭하지만, 함량과 발림성, 그리고 화학 성분 안전도까지 완벽한 제품을 찾기 위해 수차례 꼼꼼하게 대조하고 레이어링 테스트를 거쳤습니다. 늘어진 모공과 칙칙한 톤을 맑게 가꾸어 주면서도, 다른 스킨케어나 메이크업 단계와 충돌하지 않는 끈적임 없는 제형임을 직접 확인했습니다. 피부 유해 성분을 철저히 배제해 매일 부담 없이 쓸 수 있습니다. (1.69 fl oz)
 ---

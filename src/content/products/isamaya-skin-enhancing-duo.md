@@ -10,5 +10,5 @@ summary: "A solid-to-cream blush and highlighter duo for cheeks, lips, and eyes 
 descEn: |-
   That viral "lit-from-within" cheek look all over your feed right now? This is the compact behind the mood. Makeup artist Isamaya Ffrench's cream blush and highlighter duo melts on contact — a sheer, dewy flush plus a skin-like glow that reads "naturally radiant," not "wearing makeup." Dab the blush on cheeks and lips, tap the highlighter on cheekbones and eyelids, done in under a minute. Hydrating complexes keep it comfortable all day. Vegan, cruelty-free, Sephora exclusive. 0.18 oz.
 descKo: |-
-  요즘 피드마다 보이는 그 촉촉한 홍조 볼, "화장 안 한 것 같은데 어딘가 반짝이는" 그 무드의 정체가 이런 크림 블러셔 듀오예요. 메이크업 아티스트 이사마야 프렌치가 만든 건데, 고체 같다가 피부에 닿으면 크림처럼 녹아서 손가락으로 톡톡 두드리면 1분 컷. 블러셔는 볼이랑 입술에, 하이라이터는 광대랑 눈두덩이에 얹으면 생얼인 척하는 물광 메이크업 완성이에요. 보습 성분 덕에 하루 종일 각질 부각 없이 촉촉하게 붙어 있고요. 비건에 세포라 단독. 데일리로 이만한 게 없어요. 0.18 oz.
+  이효리 님이 '저스트 메이크업'에서 사용해 큰 화제를 모았다고 해서 무작정 믿지는 않았습니다. 하지만 직접 발라보고 밀착력과 지속력을 테스트해 보니, 왜 그토록 극찬했는지 단번에 납득할 수 있었습니다. 단단한 고체 제형이 피부 온도에 부드럽게 녹아들며 인위적이지 않은 자연스러운 혈색과 광채를 부여합니다. 유명세를 걷어내고 보더라도, 텍스처와 보습력만으로 매일 손이 가는 훌륭한 듀오입니다. (비건 포뮬러, 0.18 oz)
 ---

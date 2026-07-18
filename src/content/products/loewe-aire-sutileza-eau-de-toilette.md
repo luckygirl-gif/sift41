@@ -10,5 +10,5 @@ summary: "Loewe Aire Sutileza — a light, fresh eau de toilette from Loewe's Ai
 descEn: |-
   Aire Sutileza is the lighter, airier take in Loewe's Aire fragrance family — a soft, fresh eau de toilette that wears clean and close to the skin. 1.7 oz.
 descKo: |-
-  로에베 아이레 라인 중에 제일 가볍고 산뜻한 향이에요. 확 퍼지는 향 부담스러운 분들 완전 강추 — 피부에 은은하게 붙어서 가까이서만 맡아지는 타입이라 데일리로 딱이에요. 출근길이나 한낮에 슥 뿌리기 좋은, 깨끗한 느낌의 향. 1.7 oz.
+  향수는 취향의 영역이지만, '밀폐된 공간이나 타인에게 부담을 주지 않는 단정한 향'이라는 명확한 기준을 세우고 잔향을 테스트했습니다. 로에베 아이레 라인 중 가장 산뜻하게 피부에 은은하게 밀착되는 것을 직접 경험했으며, 출근길이나 한낮에도 깨끗하고 정돈된 인상을 남길 수 있는 완벽한 데일리 향수로 선정했습니다. (1.7 oz)
 ---

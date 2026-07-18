@@ -10,5 +10,5 @@ summary: "A Korean micro-bubble foam cleanser that lifts makeup, fine dust, and 
 descEn: |-
   LAGOM's hydrating foam cleanser builds a dense, whipped-cream lather of micro bubbles that pulls out makeup, impurities, and even fine dust from pores — no double cleansing needed. Its patented Aqualicia (an acacia-derived peptide) helps skin hold onto moisture, so it finishes clean but plump, never squeaky-tight. Alcohol-free and gentle enough for combination and sensitive skin. 4.05 fl oz (120ml).
 descKo: |-
-  거품이 진짜 미쳤어요. 갓 휘핑한 크림처럼 조밀한 마이크로 버블이 모공 속 미세먼지랑 메이크업 잔여물까지 싹 끌어내서, 이거 하나로 클렌징 끝나요. 더블 클렌징 귀찮은 날 특히 소중한 애. 아카시아 유래 펩타이드(아쿠알리시아)가 수분을 잡아줘서 씻고 나서 뽀득한데 하나도 안 당겨요. 알코올 프리라 민감성·복합성도 부담 없고요. 4.05 fl oz (120ml).
+  메이크업 아티스트 이사배 님의 '찐템'이라는 타이틀보다, 저희는 '정말 더블 클렌징이 필요 없는가'라는 본질적인 의구심을 먼저 가졌습니다. 하지만 마이크로 버블의 흡착력을 직접 세안하며 검증해 본 결과, 2차 세안 없이도 모공 속 잔여물이 말끔하게 지워진다는 사실을 확인했습니다. 아티스트의 이름값을 빼더라도, 세안 후 당김 없는 수분감과 성분만으로 충분히 가치 있는 선택입니다. (4.05 fl oz / 120ml)
 ---

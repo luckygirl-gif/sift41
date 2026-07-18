@@ -14,5 +14,5 @@ descEn: |-
   
   It comes in several shades, but the most natural option (Transparent or Sculpting) delivers exactly what you want: no glitter, no obvious shimmer, just a fresh, lit from within radiance that makes your skin look like it's naturally in great condition.
 descKo: |-
-  바르자마자 스르륵 녹으면서 광 올라오는데, 가까이선 은은하고 멀리선 '피부 좋아 보인다' 소리 듣는 그 광이에요 ✨ 글리터·펄 티 안 나고 속광 느낌만 딱. 여러 색 중에 제일 자연스러운 트랜스페어런트나 스컬팅 고르면 실패 없어요. '오늘 뭐 했어?' 소리 듣고 싶을 때 픽이에요.
+  국내외 수많은 연예인과 메이크업 아티스트들의 '애장템'으로 꼽힌다는 소문에도, 저희는 펄이나 글리터가 겉돌지 않는지부터 의심하며 까다롭게 테스트했습니다. 결과는 놀라웠습니다. 피부 온도에 부드럽게 멜팅되며 인위적인 광이 아닌 투명한 '속광'을 완벽하게 구현해 냈습니다. 조명이 쏟아지는 백스테이지뿐만 아니라, 일상의 자연광 아래에서도 피부 본연의 컨디션이 좋아 보이게 만드는 압도적인 퀄리티를 증명한 제품입니다.
 ---

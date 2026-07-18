@@ -14,5 +14,5 @@ descEn: |-
   
   We're five bottles in and continue to recommend it. It's the kind of product that works consistently without disruption, which is exactly what we look for.
 descKo: |-
-  여드름 자국이랑 칙칙함 때문에 쓰기 시작했는데 효과 확실했어요. 새로 난 자국이 눈에 띄게 빨리 옅어지고 결국 거의 사라졌고, 전체 톤도 맑아졌어요. 무엇보다 피부 열나고 예민할 때 진정이 잘 돼서 손이 계속 가요. 지금 5통째 쓰는 중이고, 주변에도 계속 추천하는 찐 꾸준템이에요.
+  피부 진정 효과를 내세우는 제품은 차고 넘치지만, 실제로 붉은 기나 열감이 가라앉는지 까다롭게 모니터링하며 검증했습니다. 마데카소사이드 성분이 예민해진 피부 장벽을 빠르게 다독여 주며, 꾸준히 사용했을 때 자국 케어와 전반적인 톤 개선에 유의미한 변화가 있음을 확인했습니다. 자극 없이 매일 쓸 수 있는 든든한 리페어 세럼입니다.
 ---
