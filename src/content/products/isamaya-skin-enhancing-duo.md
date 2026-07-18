@@ -8,7 +8,7 @@ buyUrl: "https://www.sephora.com/product/skin-enhancing-duo-cream-blush-highligh
 date: 2026-07-18
 summary: "A solid-to-cream blush and highlighter duo for cheeks, lips, and eyes — sheer, dewy color with a skin-like luminous finish. Vegan, Sephora exclusive. 0.18 oz."
 descEn: |-
-  Makeup artist Isamaya Ffrench's cream blush and highlighter in one compact. The solid-to-cream formula melts on contact, leaving a fresh, dewy flush on cheeks — and it works on lips and eyes too. Hydrating complexes keep it comfortable through the day instead of drying down. Lightweight, ultra-blendable, vegan and cruelty-free. Multiple shades, Sephora exclusive. 0.18 oz.
+  That viral "lit-from-within" cheek look all over your feed right now? This is the compact behind the mood. Makeup artist Isamaya Ffrench's cream blush and highlighter duo melts on contact — a sheer, dewy flush plus a skin-like glow that reads "naturally radiant," not "wearing makeup." Dab the blush on cheeks and lips, tap the highlighter on cheekbones and eyelids, done in under a minute. Hydrating complexes keep it comfortable all day. Vegan, cruelty-free, Sephora exclusive. 0.18 oz.
 descKo: |-
-  메이크업 아티스트 이사마야 프렌치가 만든 블러셔+하이라이터 듀오예요. 꾸덕한 고체 같은데 피부에 닿는 순간 크림처럼 사르르 녹아서, 물광 도는 생기 볼이 손가락 몇 번으로 끝나요. 볼에만 쓰기 아까운 게, 입술이랑 눈두덩이까지 이거 하나로 커버돼요. 보습 성분이 들어서 시간 지나도 각질 부각 없이 촉촉하게 붙어 있는 것도 포인트. 비건 처방이고 세포라 단독이라 색조 좋아하면 구경할 가치 있어요. 0.18 oz.
+  요즘 피드마다 보이는 그 촉촉한 홍조 볼, "화장 안 한 것 같은데 어딘가 반짝이는" 그 무드의 정체가 이런 크림 블러셔 듀오예요. 메이크업 아티스트 이사마야 프렌치가 만든 건데, 고체 같다가 피부에 닿으면 크림처럼 녹아서 손가락으로 톡톡 두드리면 1분 컷. 블러셔는 볼이랑 입술에, 하이라이터는 광대랑 눈두덩이에 얹으면 생얼인 척하는 물광 메이크업 완성이에요. 보습 성분 덕에 하루 종일 각질 부각 없이 촉촉하게 붙어 있고요. 비건에 세포라 단독. 데일리로 이만한 게 없어요. 0.18 oz.
 ---
