@@ -11,6 +11,15 @@ const target = process.argv[2];
 const category = process.argv[3] || 'uncategorized';
 if (!target) { console.error('사용법: node scripts/add-product.mjs <제품URL> [카테고리]'); process.exit(1); }
 
+// Amazon(amzn.to 제휴 태그)·sovrn.co가 아닌 머천트 링크는 Sovrn Redirect API로 자동 제휴화.
+// 사이트 키는 Base.astro의 //Commerce 스크립트와 동일. 지원 머천트면 수수료 발생, 아니면 그냥 통과(302).
+const SOVRN_KEY = 'c855bdca0941a37e3bafa21514e8907b';
+const monetize = (u) => {
+  const h = new URL(u).hostname;
+  if (/(^|\.)amazon\.[a-z.]+$|(^|\.)amzn\.to$|(^|\.)sovrn\.co$|viglink\.com$/.test(h)) return u;
+  return `https://redirect.viglink.com?u=${encodeURIComponent(u)}&key=${SOVRN_KEY}&prodOvrd=RAL`;
+};
+
 const clean = (s) => String(s || '').replace(/\s+/g, ' ').trim();
 const meta = (root, p) => root.querySelector(`meta[property="${p}"]`)?.getAttribute('content')
   || root.querySelector(`meta[name="${p}"]`)?.getAttribute('content') || '';
@@ -40,7 +49,7 @@ mkdirSync('src/content/products', { recursive: true });
 writeFileSync(`src/content/products/${slug}.md`, [
   '---',
   `title: "${esc(title)}"`, 'brand: ""', `category: "${esc(category)}"`,
-  `image: "${esc(image)}"`, 'price: ""', `buyUrl: "${esc(target)}"`,
+  `image: "${esc(image)}"`, 'price: ""', `buyUrl: "${esc(monetize(target))}"`,
   `date: ${today}`, `summary: "${esc(summary)}"`,
   'descEn: |-', '  ' + (summary || 'TODO'),
   'descKo: ""', '---', '',

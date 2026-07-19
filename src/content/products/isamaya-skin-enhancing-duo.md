@@ -4,7 +4,7 @@ brand: "ISAMAYA"
 category: "beauty"
 image: "/images/products/isamaya-skin-enhancing-duo.jpg"
 price: "$39"
-buyUrl: "https://www.sephora.com/product/skin-enhancing-duo-cream-blush-highlighter-P515454?skuId=2855559"
+buyUrl: "https://redirect.viglink.com?u=https%3A%2F%2Fwww.sephora.com%2Fproduct%2Fskin-enhancing-duo-cream-blush-highlighter-P515454%3FskuId%3D2855559&key=c855bdca0941a37e3bafa21514e8907b&prodOvrd=RAL"
 date: 2026-07-18
 summary: "A solid-to-cream blush and highlighter duo for cheeks, lips, and eyes — sheer, dewy color with a skin-like luminous finish. Vegan, Sephora exclusive. 0.18 oz."
 descEn: |-
