@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 60">
-  <text x="2" y="47" font-family="Helvetica, Arial, sans-serif" font-weight="800"
-        font-size="52" letter-spacing="-1" fill="#FF6A00"
-        textLength="180" lengthAdjust="spacingAndGlyphs">Sift41</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 4 128 52">
+  <text x="2" y="52" font-family="Helvetica, Arial, sans-serif" font-weight="800"
+        letter-spacing="-1" fill="#FF6A00"
+        font-size="48"><tspan font-size="62">S</tspan>ift41</text>
 </svg>
