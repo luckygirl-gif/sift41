@@ -16,7 +16,7 @@ descEn: |-
 
   <strong>What we verified:</strong> projection strength and skin-close longevity wear-tested
 descKo: |-
-  뿌리고 나간 날이면 어김없이 "무슨 향수예요?"라는 질문을 하루 종일 받습니다. 하도 물어보셔서, 이제 그 답을 여기에 올려둡니다.
+  '오늘 무슨 향수 뿌리셨어요?' 이 향수를 뿌린 날이면 항상 듣게 되는 질문입니다. 수없이 받았던 그 질문에 대한 답을 여기에 남겨둡니다.
 
   • <strong>가까이서만 느껴지는 향:</strong> 확 퍼지지 않고 피부에 은은하게 밀착됩니다.
   • <strong>아이레 라인 중 가장 산뜻:</strong> 깨끗하고 정돈된 인상을 남깁니다.
