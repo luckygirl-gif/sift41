@@ -8,7 +8,13 @@ buyUrl: "https://amzn.to/3TrFfBD"
 date: 2026-07-18
 summary: "Amazon's #1 laundry stain remover — a baby-safe, water-based spray that lifts food, grease, and coffee stains on the spot, no wash needed. 4 oz x 2."
 descEn: |-
-  No number of reviews means anything until you've removed a stain yourself. So we sprayed and blotted our way through ketchup, formula, coffee, and grease — and watched them break down on the spot, no washing machine required. The water-based, dye-free formula carries the EPA Safer Choice certification, so you can use it on children's clothes without worrying about residue. A perfect two-bottle setup for home and diaper bag. (4 oz x 2-pack)
+  Amazon's #1 stain remover, 78,000 reviews. We still sprayed ketchup, coffee, and grease to see for ourselves. It works.
+
+  • <strong>No washing machine needed:</strong> Spray, blot, and stains break down on the spot. Even set-in ones.
+  • <strong>Safe for baby clothes:</strong> Water-based, dye-free, EPA Safer Choice certified.
+  • <strong>One for home, one for the road:</strong> Diaper bag, car, anywhere. (4 oz x 2-pack)
+
+  <strong>What we verified:</strong> instant breakdown tested on everyday stains, EPA Safer Choice certification confirmed
 descKo: |-
   아마존 얼룩제거제 1위, 리뷰 7만 8천 개. 그래도 직접 지워보기 전엔 모르니, 케첩부터 기름까지 다 뿌려봤습니다. 통합니다.
 

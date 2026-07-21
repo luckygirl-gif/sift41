@@ -8,7 +8,14 @@ buyUrl: "https://redirect.viglink.com?u=https%3A%2F%2Fwww.sephora.com%2Fproduct%
 date: 2026-07-18
 summary: "A solid-to-cream blush and highlighter duo for cheeks, lips, and eyes — sheer, dewy color with a skin-like luminous finish. Vegan, Sephora exclusive. 0.18 oz."
 descEn: |-
-  When Lee Hyori wore this on the Korean show "Just Makeup" and the internet lit up, we didn't take the hype at face value. But after wearing it ourselves and testing how it adheres and lasts, we understood the praise immediately. The solid balm melts at skin temperature into a flush and glow that never look artificial. Strip away the fame, and the texture and hydration alone make this a duo we reach for daily. (Vegan formula, 0.18 oz)
+  The blush that blew up after Lee Hyori wore it on Korea's "Just Makeup." We didn't buy the hype until we wore it ourselves.
+
+  • <strong>Melts at skin temperature:</strong> A solid balm that turns to cream on contact for a natural flush and glow.
+  • <strong>Three jobs, one compact:</strong> Blush for cheeks and lips, highlighter for cheekbones and lids.
+  • <strong>Fresh all day:</strong> Hydrating formula that never cakes or creases.
+  • <strong>Clean credentials:</strong> Vegan formula / Sephora exclusive (0.18 oz)
+
+  <strong>What we verified:</strong> hype set aside for a pure texture evaluation, adhesion and wear tested in real life
 descKo: |-
   이효리 님이 '저스트 메이크업'에서 사용해 화제가 된 그 블러셔, 직접 발라보고 나서야 납득했습니다. 유명세를 걷어내도 남는 실력입니다.
 

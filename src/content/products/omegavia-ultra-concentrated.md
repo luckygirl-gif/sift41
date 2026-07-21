@@ -8,7 +8,14 @@ buyUrl: "https://amzn.to/4t2cdGl?ref=sift41.com"
 date: 2026-01-29
 summary: "Small-fish sourcing, heat-free CO2 extraction, high EPA+DHA in rTG form, IFOS-verified — the omega-3 we couldn't poke holes in."
 descEn: |-
-  Omega-3 is the category where we cross-examine labels and certifications hardest. Small fish at the bottom of the food chain to cut heavy-metal risk, supercritical CO2 extraction to prevent rancidity, the highly absorbable rTG form — it passed every standard we set. And with IFOS certification publishing its potency and freshness, one capsule does the work of several. A product we can be certain about.
+  Omega-3 is the category where we scrutinize labels hardest. This is the one that passed every standard we set.
+
+  • <strong>Heavy metals, headed off:</strong> Only small fish low on the food chain (anchovies, sardines).
+  • <strong>Freshness protected:</strong> Heat-free CO2 extraction keeps the oil from going rancid.
+  • <strong>One capsule is enough:</strong> Highly absorbable rTG form with high EPA and DHA.
+  • <strong>Transparent quality:</strong> IFOS certification publishes potency and freshness.
+
+  <strong>What we verified:</strong> sourcing, CO2 extraction, and IFOS transparency cross-checked
 descKo: |-
   오메가3는 성분표와 인증을 가장 깐깐하게 봐야 하는 품목입니다. 우리가 세운 모든 기준을 통과한 건 이 제품이었습니다.
 

@@ -21,12 +21,14 @@ links:
     labelKo: "Trioral — 속 회복"
     url: "https://www.amazon.com/dp/B00OG8G9UM?tag=sift41-20"
 descEn: |-
-  Don't choose an electrolyte on the vague word "clean." We cross-checked sodium doses, sugar content, and additives, then sorted the field into four picks by actual use case:
+  Don't buy an electrolyte because the label says "clean." We compared sodium, sugar, and additives, then sorted the field by use case.
 
-  * Everyday hydration: sugar-free Nuun
-  * Workouts and activity: clean-formula SKRATCH
-  * Heavy-sweat days: high-sodium LMNT
-  * Sensitive stomachs and recovery: glucose-based Trioral
+  • <strong>Everyday hydration:</strong> sugar-free Nuun
+  • <strong>Workouts:</strong> clean-formula SKRATCH
+  • <strong>Heavy-sweat days:</strong> high-sodium LMNT
+  • <strong>Sensitive stomachs and recovery:</strong> glucose-based Trioral
+
+  <strong>What we verified:</strong> sodium, sugar, and additive contents compared, picks sorted by actual use case
 descKo: |-
   '클린'이라는 표기만 믿고 고르지 마세요. 나트륨, 당분, 첨가물을 대조해 용도별로 네 가지를 추렸습니다.
 

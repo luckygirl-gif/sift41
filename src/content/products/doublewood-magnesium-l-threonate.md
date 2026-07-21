@@ -8,7 +8,14 @@ buyUrl: "https://amzn.to/4pxX91Q"
 date: 2026-07-18
 summary: "The 'brain magnesium' — L-threonate is the form studied for crossing the blood-brain barrier, developed at MIT for memory, focus, and deeper sleep. NSF certified, 2,000 mg, 120 capsules."
 descEn: |-
-  Magnesium behaves completely differently depending on its form. Knowing the limits of common magnesium oxide, we sought out L-threonate — the form shown in research to cross the blood-brain barrier and raise magnesium levels in the brain. We checked for the patented Magtein ingredient and cross-referenced the third-party purity testing (NSF certification). If your goal is cognitive function and sleep quality, this is the form we concluded you should choose without hesitation. (120 capsules, evening use recommended)
+  With magnesium, the form is everything. Common magnesium oxide barely absorbs. Magnesium for your brain is a different molecule.
+
+  • <strong>The form that reaches the brain:</strong> L-threonate is studied for crossing the blood-brain barrier, the brain's gatekeeper (developed at MIT).
+  • <strong>A different goal:</strong> Not digestion. Memory, focus, and sleep quality.
+  • <strong>Verified sourcing:</strong> Patented Magtein, NSF third-party purity testing.
+  • <strong>How to take it:</strong> Evenings recommended. Full 2,000 mg daily dose. (120 capsules, about 30 days)
+
+  <strong>What we verified:</strong> NSF third-party purity results cross-checked, blood-brain barrier research reviewed
 descKo: |-
   마그네슘은 형태가 전부입니다. 흔한 산화마그네슘은 흡수율이 낮아 사실상 변비약에 가깝습니다. 뇌를 위한 마그네슘은 따로 있습니다.
 

@@ -8,7 +8,14 @@ buyUrl: "https://amzn.to/4vz3hrN"
 date: 2026-07-18
 summary: "An EWG Verified oxygen bleach — the strictest clean-ingredient certification there is. Color-safe stain removal and whitening with zero chlorine, zero fragrance, zero compromise. 45 loads."
 descEn: |-
-  We ignore words like "natural" and "gentle" on cleaning labels — they're marketing. Instead we cross-checked the strictest audit there is: EWG Verified, which requires full ingredient disclosure and zero substances from the Environmental Working Group's list of health-concern chemicals. With safety established, we ran our own laundry tests and watched plant- and mineral-derived ingredients pull yellowed stains and odors out of whites. Unlike chlorine bleach, it never touched the colors. A laundry solution you can settle on with confidence. (Unscented, 45 loads)
+  We skip words like "natural" on cleaning labels and look for audits instead. This bleach passed the strictest one there is: EWG Verified.
+
+  • <strong>The toughest certification:</strong> EWG Verified requires full ingredient disclosure, zero chemicals of concern, and top-tier health standards.
+  • <strong>Whitening that works:</strong> Lifts yellowed stains and odors with plant and mineral ingredients.
+  • <strong>Safe for colors:</strong> None of the damage chlorine bleach causes.
+  • <strong>For the whole family:</strong> Fragrance-free, hypoallergenic, septic-safe. Great for baby clothes. (45 loads)
+
+  <strong>What we verified:</strong> EWG Verified certification cross-checked, stain and odor removal tested in our own laundry
 descKo: |-
   '천연', '순한' 같은 마케팅 문구 대신 실제 심사를 봤습니다. 표백제로는 드물게 EWG Verified 인증을 통과한 제품입니다.
 

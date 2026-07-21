@@ -8,7 +8,14 @@ buyUrl: "https://amzn.to/4btGZ3y"
 date: 2026-07-18
 summary: "Hand-harvested French finishing salt from the Guérande salt marshes — moist, mineral-rich crystals that make steak, salads, and even chocolate taste sharper. 4.4 oz x 2."
 descEn: |-
-  We compared the premium salts on the market, and this one had the most elegant salinity of them all. Fleur de sel cannot be harvested by machine — its scarcity is real — but its value only proved itself when we actually cooked with it. Finishing steak, roasted vegetables, even chocolate with a pinch, we watched each ingredient's own flavor come alive. The moist, mineral-rich crystals deliver a delicate crunch that's part of the charm. (4.4 oz x 2-pack)
+  Called "the caviar of salts," this is the highest grade salt reaches. We tasted it against other premium salts, and it wasn't close.
+
+  • <strong>Harvested only by hand:</strong> Just the first delicate crystal layer, raked off the water's surface. Machines can't do it, so supply is scarce.
+  • <strong>The finishing pinch:</strong> Steak, roasted vegetables, tomatoes, even chocolate and caramel come alive.
+  • <strong>That delicate crunch:</strong> Moist, mineral-rich crystals with a texture all their own.
+  • <strong>Lasts for months:</strong> A little goes far. 4.4 oz x 2-pack (French IGP certified)
+
+  <strong>What we verified:</strong> flavor compared against rival premium salts, pairings tested across dishes
 descKo: |-
   '소금의 캐비아'라 불리는 최고 등급의 프랑스 소금입니다. 시중 프리미엄 소금들을 비교해 본 결과, 짠맛의 결이 가장 우아했습니다.
 

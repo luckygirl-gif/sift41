@@ -8,7 +8,13 @@ buyUrl: "https://amzn.to/4bkvRa8?ref=sift41.com"
 date: 2026-01-26
 summary: "A quiet overachiever for post pimple marks, dullness, and irritation."
 descEn: |-
-  Plenty of serums claim to calm skin; we monitored whether redness and heat actually settle. They do. Madecassoside steadies a stressed skin barrier quickly, and with consistent use we saw meaningful change in post-blemish marks and overall tone. A dependable repair serum gentle enough for daily use.
+  Every serum claims to calm skin. We monitored whether redness and heat actually settle. They do.
+
+  • <strong>Fast soothing:</strong> Madecassoside steadies a stressed skin barrier.
+  • <strong>Marks fade with time:</strong> Consistent use showed real change in post-blemish marks and overall tone.
+  • <strong>Daily-gentle:</strong> Mild enough to use every day without irritation.
+
+  <strong>What we verified:</strong> redness and heat monitored over time, long-term tone improvement confirmed
 descKo: |-
   진정을 내세우는 세럼은 많지만, 붉은 기와 열감이 실제로 가라앉는지 꾸준히 확인하며 검증한 제품입니다.
 

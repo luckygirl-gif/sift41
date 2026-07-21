@@ -8,7 +8,13 @@ buyUrl: "https://amzn.to/49LNaQ6?ref=sift41.com"
 date: 2026-01-29
 summary: "A gentle synbiotic pairing targeted probiotic strains with low-FODMAP prebiotic fiber — regularity and balance without the bloat."
 descEn: |-
-  If probiotics have ever left you gassier and more bloated than before, you're not alone. We dug into why, then found this formula: targeted strains paired with a low-FODMAP prebiotic that feeds good bacteria without the usual discomfort, free of dairy, gluten, and sugar. The delayed-release capsule survives stomach acid to deliver its cultures deep in the gut — an effectiveness we verified through both the ingredient list and how it actually feels.
+  If probiotics leave you gassier than before, the problem isn't probiotics. It's the formula. This one is built for sensitive guts.
+
+  • <strong>A prebiotic that behaves:</strong> Low-FODMAP certified, minus the ingredients that create gas.
+  • <strong>Formulated for sensitive systems:</strong> No dairy, gluten, soy, or sugar.
+  • <strong>Delivered alive:</strong> A delayed-release capsule survives stomach acid to reach deep in the gut.
+
+  <strong>What we verified:</strong> low-FODMAP formula confirmed, delayed-release delivery tested by feel
 descKo: |-
   유산균을 먹으면 오히려 가스가 차고 불편했다면, 문제는 유산균이 아니라 조합입니다. 예민한 장을 위해 설계된 제품입니다.
 

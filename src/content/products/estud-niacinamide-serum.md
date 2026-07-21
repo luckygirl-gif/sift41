@@ -8,7 +8,13 @@ buyUrl: "https://amzn.to/4wcinEh"
 date: 2026-06-29
 summary: "A lightweight Korean-skincare serum built around 2% niacinamide and Centella Asiatica — minimizes pores, evens tone, and leaves a smooth glass-skin finish. 1.69 fl oz."
 descEn: |-
-  Niacinamide plus Centella is a proven pairing, but finding the right dose, feel, and ingredient safety in one product took several rounds of comparison and layering tests. We confirmed it refines enlarged pores and clears dullness while staying tack-free — it never fights the rest of your skincare or makeup. With skin-concern ingredients strictly excluded, it's an easy daily choice. (1.69 fl oz)
+  Niacinamide plus Centella is a proven pairing. We compared dose, feel, and ingredient safety to find the one worth keeping.
+
+  • <strong>Pores and tone together:</strong> Refines enlarged pores and clears dullness.
+  • <strong>Layers with anything:</strong> Weightless, tack-free texture that never fights the rest of your routine.
+  • <strong>Gentle for daily use:</strong> Ingredients of concern strictly excluded. (1.69 fl oz)
+
+  <strong>What we verified:</strong> ingredient safety screened, layering tested with skincare and makeup
 descKo: |-
   나이아신아마이드 2%와 병풀의 검증된 조합. 함량, 발림성, 성분 안전도까지 따져보고 골랐습니다.
 

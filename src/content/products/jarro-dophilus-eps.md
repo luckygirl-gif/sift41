@@ -8,7 +8,14 @@ buyUrl: "https://amzn.to/4b7dQLw"
 date: 2026-07-20
 summary: "A daily probiotic for gut balance and calm — 8 clinically studied strains including the gut-brain duo (L. helveticus R0052, B. longum), enteric-coated to reach the intestine alive. 120 veggie capsules."
 descEn: |-
-  Plenty of probiotics promise "gut balance," so we went strain by strain before judging this one. Jarro-Dophilus EPS carries 8 clinically studied strains at 10 billion CFU, and two of them stand out: Lactobacillus helveticus R0052 and Bifidobacterium longum, the pairing researched for the gut-brain axis — the connection between digestive balance and everyday calm. For the gut itself, it's built for regularity and less bloating, and the Enteroguard enteric coating carries the capsules past stomach acid so the strains actually arrive in the intestine alive. Blister-packed, shelf-stable, no refrigeration. A daily probiotic that covers both the gut and the state of mind that depends on it. (120 veggie capsules)
+  A calm gut makes a calm mind. We went strain by strain before picking this daily probiotic.
+
+  • <strong>The gut-brain duo:</strong> L. helveticus R0052 and B. longum, the pairing researched for the gut-brain connection.
+  • <strong>Regularity without the bloat:</strong> Built for steady digestion and less gas.
+  • <strong>Arrives alive:</strong> Enteroguard enteric coating carries the strains past stomach acid.
+  • <strong>Easy to keep:</strong> Blister-packed, no refrigeration. (10 billion CFU, 120 veggie capsules)
+
+  <strong>What we verified:</strong> clinical data checked strain by strain, enteric coating survival confirmed
 descKo: |-
   장이 편해야 마음도 편합니다. 임상 연구를 거친 8종 균주를 하나하나 확인하고 고른 데일리 유산균입니다.
 

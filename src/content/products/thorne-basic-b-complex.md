@@ -8,7 +8,13 @@ buyUrl: "https://amzn.to/3Z2twJx?ref=sift41.com"
 date: 2026-01-29
 summary: "Active forms (5-MTHF, methyl B12, P-5-P), sensible doses, zero fillers — the B-complex that kept passing our filter."
 descEn: |-
-  We're wary of megadose B formulas that can burden the liver and kidneys. Instead, we looked for active forms the body uses immediately — 5-MTHF folate, methyl B12, P-5-P — at balanced doses built for steady daily use. After scrutinizing Thorne's manufacturing philosophy of excluding unnecessary additives and dyes, we chose this as the ideal B complex.
+  Megadose B formulas can burden the liver and kidneys. Our answer: the right forms at sensible doses.
+
+  • <strong>Forms your body uses now:</strong> 5-MTHF folate, methyl B12, and P-5-P, all pre-activated.
+  • <strong>Built for every day:</strong> Effective without megadosing.
+  • <strong>Nothing extra:</strong> No unnecessary additives or dyes. Classic Thorne.
+
+  <strong>What we verified:</strong> megadose formulas ruled out, active forms and dose balance checked
 descKo: |-
   숫자만 키운 메가도스는 간과 신장에 부담일 수 있습니다. 우리가 찾은 답은 '좋은 형태, 적정 함량'입니다.
 

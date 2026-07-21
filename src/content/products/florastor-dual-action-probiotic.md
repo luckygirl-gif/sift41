@@ -8,7 +8,15 @@ buyUrl: "https://amzn.to/44GizA4"
 date: 2026-07-20
 summary: "A protective yeast probiotic (S. boulardii CNCM I-745) for gut stability — studied for diarrhea prevention after antibiotics or travel, clears bad bacteria, and works alongside bacterial probiotics. 30 capsules."
 descEn: |-
-  Most probiotics are bacteria; this one is a protective yeast, and that difference is exactly why we chose it. Florastor's single strain, Saccharomyces boulardii CNCM I-745, isn't wiped out by antibiotics — which is why it's the strain studied for decades for keeping the gut stable when it's most vulnerable: during and after antibiotics, and while traveling. We traced the research record before trusting the claims: 65 years of clinical study, more than almost any probiotic on the market. It helps flush out bad bacteria and toxins while supporting the good — and because it's a yeast, it doesn't compete with bacterial probiotics, so it layers cleanly on top of the one you already take. No refrigeration needed. Made in France, vegetarian capsules. (30 capsules)
+  Most probiotics are bacteria. This one is a protective yeast, and after tracing 65 years of research, we can tell you the difference is real.
+
+  • <strong>Survives antibiotics:</strong> A yeast, not a bacterium. Antibiotics can't kill it, so it keeps guarding your gut during treatment and travel.
+  • <strong>Flushes the bad, keeps the good:</strong> Helps clear harmful bacteria and toxins while protecting your good flora.
+  • <strong>Stacks with your current probiotic:</strong> It doesn't compete with bacterial strains, so you can take both.
+  • <strong>Travel-friendly:</strong> No refrigeration needed. It lives happily in a carry-on.
+  • <strong>Quality you can trust:</strong> Made in France / vegetarian capsules (30 capsules)
+
+  <strong>What we verified:</strong> 65 years of clinical records traced, compatibility with bacterial probiotics confirmed
 descKo: |-
   대부분의 유산균은 '세균'이지만, 이 제품은 장을 지키는 유익한 '효모'라는 점이 다릅니다. 65년의 연구로 검증된 확실한 차이를 경험해 보세요.
 

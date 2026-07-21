@@ -8,7 +8,14 @@ buyUrl: "https://sovrn.co/4ihahgw?ref=sift41.com"
 date: 2026-01-27
 summary: "Chanel Baume Essentiel melts in for a subtle, lit-from-within glow — no glitter, no shimmer, just healthier-looking skin."
 descEn: |-
-  Even with countless celebrities and makeup artists calling it their favorite, our first instinct was suspicion: would the shimmer sit on top of skin and look obvious? We tested it hard, and the results surprised us. It melts at skin temperature into a transparent, lit-from-within glow with nothing artificial about it. Under backstage lighting and ordinary daylight alike, it simply makes skin look like it's having a very good day. That, we can verify, is quality.
+  Every celebrity's favorite, supposedly. Our first question was whether the shimmer would sit on top of the skin. It doesn't.
+
+  • <strong>Glow, not glitter:</strong> A transparent, lit-from-within finish that just reads as great skin.
+  • <strong>Melts on contact:</strong> Blends in seamlessly at skin temperature, no visible edges.
+  • <strong>Works in any light:</strong> Backstage lighting or plain daylight.
+  • <strong>Where to start:</strong> Transparent and Sculpting are the most natural shades.
+
+  <strong>What we verified:</strong> shimmer fallout ruled out, adhesion tested under daylight and stage lighting
 descKo: |-
   수많은 연예인들의 최애템이라는 소문, 펄이 겉돌지 않는지부터 의심하며 테스트했습니다. 결과는 소문 그대로였습니다.
 

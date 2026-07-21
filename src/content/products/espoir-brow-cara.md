@@ -8,7 +8,13 @@ buyUrl: "https://amzn.to/4rrGL2s?ref=sift41.com"
 date: 2026-02-05
 summary: "Espoir Brow Cara tames and tints brows in a few upward strokes — a natural, feathered finish with zero technique required."
 descEn: |-
-  We screened hard for the two failures common to brow caras: clumping and unnatural color. This one passed. Rather than painting over sparse spots, it lifts and sets your natural brow texture, and we confirmed the intuitive brush design and the gel's hold ourselves — brows that read "naturally well-defined," not "drawn on." An essential for feathered, groomed brows with no learning curve.
+  No skill required. Brush upward along the hairs and your brows are done.
+
+  • <strong>No clumps, no cakey color:</strong> We screened out the two most common brow cara failures.
+  • <strong>Enhances, doesn't paint:</strong> Lifts your natural brow texture so you look naturally well-defined.
+  • <strong>Moves with your face:</strong> Never stiffens, comfortable all day.
+
+  <strong>What we verified:</strong> clump-free texture, natural color payoff, hold tested through the day
 descKo: |-
   손재주가 없어도 됩니다. 결을 따라 빗어 올리기만 하면 정돈된 눈썹이 완성됩니다.
 

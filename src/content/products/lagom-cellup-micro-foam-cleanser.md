@@ -8,7 +8,14 @@ buyUrl: "https://amzn.to/4vNSsm4"
 date: 2026-07-18
 summary: "A Korean micro-bubble foam cleanser that lifts makeup, fine dust, and pore-level grime in one wash — dense whipped-cream foam, zero post-cleanse tightness. 4.05 fl oz."
 descEn: |-
-  This is the cleanser Korean makeup artist Risabae swears by — but we started with a more fundamental doubt: does it really eliminate the need for double cleansing? Washing with it ourselves and checking how the micro bubbles lift impurities, we confirmed that makeup residue and pore-level grime come off clean without a second cleanse. Even setting the artist's name aside, the tightness-free hydration and the ingredient list alone make it worth choosing. (4.05 fl oz / 120ml)
+  The cleanser Korean makeup artist Risabae swears by. We had one question: does it really replace double cleansing?
+
+  • <strong>Whipped-cream micro bubbles:</strong> Dense foam lifts fine dust and makeup residue out of pores.
+  • <strong>One wash, done:</strong> Skin comes out clean without a second cleanse.
+  • <strong>No post-wash tightness:</strong> Patented acacia-derived Aqualicia locks moisture in.
+  • <strong>Gentle by design:</strong> Alcohol-free and kind to sensitive, combination skin. (4.05 fl oz / 120ml)
+
+  <strong>What we verified:</strong> double-cleanse replacement tested, post-wash hydration and residue checked
 descKo: |-
   메이크업 아티스트 이사배 님의 '찐템'으로 유명한 폼 클렌저. 정말 더블 클렌징이 필요 없는지 직접 세안하며 확인했습니다.
 
