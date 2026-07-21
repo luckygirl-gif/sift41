@@ -8,7 +8,7 @@ buyUrl: "https://sovrn.co/11xr8gt"
 date: 2026-06-29
 summary: "Loewe Aire Sutileza — a light, fresh eau de toilette from Loewe's Aire collection (1.7 oz)."
 descEn: |-
-  A fragrance for people who find fragrance overwhelming. Our standard: a clean, understated scent that never imposes in a closed room.
+  Every time we wear this out, the same question follows us around all day: "What are you wearing?" We got tired of answering one person at a time, so here it is.
 
   • <strong>Close-to-skin scent:</strong> Stays intimate instead of projecting across the room.
   • <strong>The freshest of the Aire line:</strong> A clean, composed impression.
@@ -16,7 +16,7 @@ descEn: |-
 
   <strong>What we verified:</strong> projection strength and skin-close longevity wear-tested
 descKo: |-
-  향수가 부담스러운 분을 위한 향수입니다. '타인에게 부담 주지 않는 단정한 향'이라는 기준으로 테스트해 선정했습니다.
+  뿌리고 나간 날이면 어김없이 "무슨 향수예요?"라는 질문을 하루 종일 받습니다. 하도 물어보셔서, 이제 그 답을 여기에 올려둡니다.
 
   • <strong>가까이서만 느껴지는 향:</strong> 확 퍼지지 않고 피부에 은은하게 밀착됩니다.
   • <strong>아이레 라인 중 가장 산뜻:</strong> 깨끗하고 정돈된 인상을 남깁니다.
