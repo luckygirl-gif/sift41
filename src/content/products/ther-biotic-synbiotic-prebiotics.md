@@ -14,7 +14,7 @@ descEn: |-
   • <strong>Formulated for sensitive systems:</strong> No dairy, gluten, soy, or sugar.
   • <strong>Delivered alive:</strong> A delayed-release capsule survives stomach acid to reach deep in the gut.
 
-  <strong>What we verified:</strong> low-FODMAP formula confirmed, delayed-release delivery tested by feel
+  <strong>What we verified:</strong> low-FODMAP formula confirmed, delayed-release delivery confirmed in real-world use
 descKo: |-
   유산균을 먹으면 오히려 가스가 차고 불편했다면, 문제는 유산균이 아니라 조합입니다. 예민한 장을 위해 설계된 제품입니다.
 

@@ -8,7 +8,7 @@ buyUrl: "https://amzn.to/4btGZ3y"
 date: 2026-07-18
 summary: "Hand-harvested French finishing salt from the Guérande salt marshes — moist, mineral-rich crystals that make steak, salads, and even chocolate taste sharper. 4.4 oz x 2."
 descEn: |-
-  Called "the caviar of salts," this is the highest grade salt reaches. We tasted it against other premium salts, and it wasn't close.
+  Called "the caviar of salts," this is the highest grade salt can reach. We tasted it against other premium salts, and it wasn't close.
 
   • <strong>Harvested only by hand:</strong> Just the first delicate crystal layer, raked off the water's surface. Machines can't do it, so supply is scarce.
   • <strong>The finishing pinch:</strong> Steak, roasted vegetables, tomatoes, even chocolate and caramel come alive.

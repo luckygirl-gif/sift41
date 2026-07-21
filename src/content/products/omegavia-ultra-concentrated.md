@@ -10,7 +10,7 @@ summary: "Small-fish sourcing, heat-free CO2 extraction, high EPA+DHA in rTG for
 descEn: |-
   Omega-3 is the category where we scrutinize labels hardest. This is the one that passed every standard we set.
 
-  • <strong>Heavy metals, headed off:</strong> Only small fish low on the food chain (anchovies, sardines).
+  • <strong>Heavy metals eliminated:</strong> Only small fish low on the food chain (anchovies, sardines).
   • <strong>Freshness protected:</strong> Heat-free CO2 extraction keeps the oil from going rancid.
   • <strong>One capsule is enough:</strong> Highly absorbable rTG form with high EPA and DHA.
   • <strong>Transparent quality:</strong> IFOS certification publishes potency and freshness.

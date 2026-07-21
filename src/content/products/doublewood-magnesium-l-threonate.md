@@ -10,7 +10,7 @@ summary: "The 'brain magnesium' — L-threonate is the form studied for crossing
 descEn: |-
   With magnesium, the form is everything. Common magnesium oxide barely absorbs. Magnesium for your brain is a different molecule.
 
-  • <strong>The form that reaches the brain:</strong> L-threonate is studied for crossing the blood-brain barrier, the brain's gatekeeper (developed at MIT).
+  • <strong>The form that reaches the brain:</strong> L-threonate is studied for its ability to cross the blood-brain barrier, the brain's gatekeeper (developed at MIT).
   • <strong>A different goal:</strong> Not digestion. Memory, focus, and sleep quality.
   • <strong>Verified sourcing:</strong> Patented Magtein, NSF third-party purity testing.
   • <strong>How to take it:</strong> Evenings recommended. Full 2,000 mg daily dose. (120 capsules, about 30 days)
