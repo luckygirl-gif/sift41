@@ -2,7 +2,7 @@
 title: "Florastor Dual Action Probiotic"
 brand: "Florastor"
 category: "health"
-image: "/images/products/florastor-dual-action-probiotic.jpg"
+image: "/images/products/florastor-dual-action-30.jpg"
 price: ""
 buyUrl: "https://amzn.to/44GizA4"
 date: 2026-07-20
