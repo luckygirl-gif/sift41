@@ -8,7 +8,7 @@ buyUrl: "https://sovrn.co/11xr8gt"
 date: 2026-06-29
 summary: "Loewe Aire Sutileza — a light, fresh eau de toilette from Loewe's Aire collection (1.7 oz)."
 descEn: |-
-  Every time we wear this out, the same question follows us around all day: "What are you wearing?" We got tired of answering one person at a time, so here it is.
+  This is the scent that makes people stop and ask, "What are you wearing?" We've answered it enough times in person, so we're making it official here.
 
   • <strong>Close-to-skin scent:</strong> Stays intimate instead of projecting across the room.
   • <strong>The freshest of the Aire line:</strong> A clean, composed impression.
