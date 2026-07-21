@@ -2,7 +2,7 @@
 title: "Goddard's Silver Polish Foam"
 brand: "Goddard's"
 category: "home"
-image: "/images/products/goddards-silver-polish-action.jpg"
+image: "/images/products/goddards-silver-polish-towel.jpg"
 price: ""
 buyUrl: "https://amzn.to/4p33TEE"
 date: 2026-06-29
