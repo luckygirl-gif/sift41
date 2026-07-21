@@ -15,4 +15,6 @@ descKo: |-
   • <strong>세탁기 없이 그 자리에서:</strong> 뿌리고 톡톡 두드리면 얼룩이 즉시 분해됩니다. 말라붙은 얼룩에도 효과적입니다.
   • <strong>아기 옷에도 안심:</strong> 수성·무염료 포뮬러로 미국 환경보호청의 EPA Safer Choice 인증을 받았습니다.
   • <strong>어디서든 든든하게:</strong> 하나는 집에, 하나는 기저귀 가방이나 차에. (4oz 2팩)
+
+  <strong>검증 포인트:</strong> 일상 오염(기름, 커피 등) 즉각 분해 테스트, EPA Safer Choice 인증 확인
 ---

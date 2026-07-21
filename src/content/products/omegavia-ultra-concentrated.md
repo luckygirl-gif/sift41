@@ -16,4 +16,6 @@ descKo: |-
   • <strong>산패 없는 신선함:</strong> 열을 가하지 않는 CO2 추출 방식이라 오일이 상하지 않습니다.
   • <strong>한 알로 충분한 함량:</strong> 흡수율 높은 rTG 형태에 EPA·DHA 고함량.
   • <strong>투명한 품질 공개:</strong> IFOS 인증으로 함량과 신선도가 공개됩니다.
+
+  <strong>검증 포인트:</strong> 소형 어종 원료, 초임계 CO2 추출 방식, IFOS 인증 투명성 교차 검증
 ---

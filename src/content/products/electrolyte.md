@@ -34,4 +34,6 @@ descKo: |-
   • <strong>운동할 때:</strong> 깔끔한 성분 배합의 SKRATCH
   • <strong>땀을 많이 흘리는 날:</strong> 고나트륨 세팅의 LMNT
   • <strong>속이 예민하거나 회복할 때:</strong> 포도당 기반의 Trioral
+
+  <strong>검증 포인트:</strong> 나트륨 함량·당분·첨가물 성분 대조, 사용 목적별 분류 검증
 ---
