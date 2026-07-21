@@ -2,7 +2,7 @@
 title: "THORNE - Basic B-Complex"
 brand: ""
 category: "health"
-image: "/images/products/thorne-basic-b-complex.jpg"
+image: "/images/products/thorne-basic-b-complex-v2.jpg"
 price: ""
 buyUrl: "https://amzn.to/3Z2twJx?ref=sift41.com"
 date: 2026-01-29
