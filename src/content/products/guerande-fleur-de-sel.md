@@ -2,7 +2,7 @@
 title: "Guérande Fleur de Sel Sea Salt (2-Pack)"
 brand: "Le Guérandais"
 category: "home"
-image: "/images/products/guerande-fleur-de-sel.jpg"
+image: "/images/products/guerande-fleur-de-sel-v2.jpg"
 price: ""
 buyUrl: "https://amzn.to/4btGZ3y"
 date: 2026-07-18

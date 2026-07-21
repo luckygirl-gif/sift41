@@ -2,7 +2,7 @@
 title: "Espoir Brow Cara"
 brand: ""
 category: "beauty"
-image: "/images/products/espoir-brow-cara.jpg"
+image: "/images/products/espoir-brow-cara-v2.jpg"
 price: ""
 buyUrl: "https://amzn.to/4rrGL2s?ref=sift41.com"
 date: 2026-02-05
