@@ -2,7 +2,7 @@
 title: "Ther-Biotic Synbiotic Prebiotics"
 brand: ""
 category: "health"
-image: "/images/products/ther-biotic-synbiotic-prebiotics.jpg"
+image: "/images/products/ther-biotic-synbiotic.jpg"
 price: ""
 buyUrl: "https://amzn.to/49LNaQ6?ref=sift41.com"
 date: 2026-01-29
