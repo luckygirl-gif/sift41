@@ -10,5 +10,10 @@ summary: "The 'brain magnesium' — L-threonate is the form studied for crossing
 descEn: |-
   Magnesium behaves completely differently depending on its form. Knowing the limits of common magnesium oxide, we sought out L-threonate — the form shown in research to cross the blood-brain barrier and raise magnesium levels in the brain. We checked for the patented Magtein ingredient and cross-referenced the third-party purity testing (NSF certification). If your goal is cognitive function and sleep quality, this is the form we concluded you should choose without hesitation. (120 capsules, evening use recommended)
 descKo: |-
-  마그네슘은 형태에 따라 체내 작용이 완전히 다릅니다. 일반적인 산화마그네슘의 한계를 인지하고, 혈뇌장벽(BBB)을 통과해 뇌 내 마그네슘 수치를 높이는 것으로 검증된 L-트레오네이트 형태를 직접 찾아냈습니다. 특허 원료(Magtein) 사용 여부와 제3자 순도 검사(NSF) 결과를 꼼꼼히 대조했으며, 인지 기능 및 수면 질 개선을 목적으로 한다면 주저 없이 이 형태를 선택해야 한다고 결론 내렸습니다. (120캡슐, 저녁 섭취 권장)
+  마그네슘은 형태가 전부입니다. 흔한 산화마그네슘은 흡수율이 낮아 사실상 변비약에 가깝습니다. 뇌를 위한 마그네슘은 따로 있습니다.
+
+  • <strong>뇌까지 가는 유일한 형태:</strong> L-트레오네이트는 뇌로 들어가는 관문(혈뇌장벽)을 통과해 뇌 마그네슘 수치를 높이는 것으로 연구된 형태입니다 (MIT 개발).
+  • <strong>목적이 다릅니다:</strong> 소화가 아니라 기억력, 집중력, 수면의 질을 위해 선택하는 '브레인 마그네슘'입니다.
+  • <strong>검증된 원료:</strong> 특허 원료 Magtein 사용, NSF 제3자 순도 검사 통과.
+  • <strong>복용 팁:</strong> 저녁 복용 권장. 하루 2,000mg 풀 용량. (120캡슐, 약 30일 분량)
 ---

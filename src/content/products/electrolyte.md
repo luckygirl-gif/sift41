@@ -28,10 +28,10 @@ descEn: |-
   * Heavy-sweat days: high-sodium LMNT
   * Sensitive stomachs and recovery: glucose-based Trioral
 descKo: |-
-  전해질 제품을 '클린'하다는 모호한 표기만 보고 고르지 마세요. 우리는 나트륨 함량, 당분, 첨가물을 꼼꼼히 대조하고 실제 사용 목적에 따라 직접 네 가지로 분류해 보았습니다.
+  '클린'이라는 표기만 믿고 고르지 마세요. 나트륨, 당분, 첨가물을 대조해 용도별로 네 가지를 추렸습니다.
 
-  * 일상 수분 보충: 무가당 베이스의 'Nuun'
-  * 운동 및 활동 시: 깔끔한 성분 배합의 'SKRATCH'
-  * 다량의 발한 시: 고나트륨 세팅의 'LMNT'
-  * 위장이 예민하거나 회복 시: 포도당 기반의 'Trioral'
+  • <strong>일상 수분 보충:</strong> 무가당 베이스의 Nuun
+  • <strong>운동할 때:</strong> 깔끔한 성분 배합의 SKRATCH
+  • <strong>땀을 많이 흘리는 날:</strong> 고나트륨 세팅의 LMNT
+  • <strong>속이 예민하거나 회복할 때:</strong> 포도당 기반의 Trioral
 ---
