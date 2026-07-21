@@ -2,7 +2,7 @@
 title: "LAGOM Cellup Micro Foam Cleanser"
 brand: "LAGOM"
 category: "beauty"
-image: "/images/products/lagom-cellup-micro-foam-cleanser.jpg"
+image: "/images/products/lagom-cellup-v2.jpg"
 price: ""
 buyUrl: "https://amzn.to/4vNSsm4"
 date: 2026-07-18
