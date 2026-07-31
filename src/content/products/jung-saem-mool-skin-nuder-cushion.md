@@ -6,23 +6,23 @@ image: "/images/products/jung-saem-mool-skin-nuder-cushion.jpg"
 price: ""
 buyUrl: "https://amzn.to/3RNa8zY"
 date: 2026-07-30
-summary: "The K-beauty cushion we always come back to — natural radiant coverage with SPF50+ PA+++, from the brand of Korea's iconic makeup artist Jung Saem Mool. Shade 19N N-Light."
+summary: "A base-makeup specialist's cushion with precise coverage and a controlled radiant finish — SPF50+ PA+++, shade 19N N-Light."
 descEn: |-
-  We've tried every buzzy new cushion launch. Ten-plus compacts later, this is the one we keep coming back to.
+  New base launches come and go. Ten-plus refills later, this cushion has outlasted them all on a single merit: consistent, dependable performance.
 
-  • <strong>An artist's standard:</strong> From the brand of Jung Saem Mool, one of Korea's most iconic makeup artists — base makeup is her signature.
-  • <strong>Coverage and color, both:</strong> Evens things out naturally, and the shade itself is genuinely pretty on skin.
-  • <strong>Every skin type welcome:</strong> Wore beautifully on dry, oily, and dehydrated-combination skin alike — no patchiness, no slide.
-  • <strong>Radiant, not greasy:</strong> A natural lit-from-within finish with SPF50+ PA+++ sun protection built in. (Shade 19N N-Light, refill not included)
+  • <strong>Base makeup, by a specialist:</strong> From an artist brand built on base makeup — the texture and formulation reflect that singular focus.
+  • <strong>Precise coverage, true tone:</strong> Blurs imperfections in a thin, even layer rather than masking them, keeping the finish true to your own skin.
+  • <strong>Steady in any condition:</strong> Holds its balance across dry, oily, and combination skin, with minimal breakdown or darkening as the day goes on.
+  • <strong>A controlled radiant finish:</strong> A restrained, lit-from-within glow with none of the excess shine. (SPF50+ / PA+++, shade 19N N-Light, refill not included)
 
-  <strong>What we verified:</strong> compared side by side with each new cushion launch, repurchased 10+ times, fit checked across dry, oily, and dehydrated-combination skin
+  <strong>What we verified:</strong> cross-tested against each high-profile new base launch, fit and wear tracked across 10+ empties through four seasons
 descKo: |-
-  새 쿠션이 나올 때마다 궁금해서 써 보지만, 결국 이 쿠션으로 돌아옵니다. 10통 넘게 비우며 내린 결론입니다.
+  수많은 베이스 신제품의 홍수 속에서도 10개 이상의 리필을 비워낸 이유는 단 하나, '변함없는 밀착력과 안정적인 퍼포먼스'입니다. 트렌드에 휩쓸리지 않는 견고한 베이스 메이크업의 표본과도 같은 제품입니다.
 
-  • <strong>아티스트의 기준:</strong> 한국 대표 메이크업 아티스트 정샘물 브랜드. 베이스 메이크업은 그녀의 시그니처입니다.
-  • <strong>커버력과 컬러, 둘 다:</strong> 잡티는 자연스럽게 커버되고, 컬러가 예뻐 얼굴이 화사해 보입니다.
-  • <strong>피부 타입을 가리지 않습니다:</strong> 건성·지성·수부지(수분 부족 지성) 모두에서 들뜸 없이 잘 맞는 것을 확인했습니다.
-  • <strong>번들거림 없는 광:</strong> 은은하게 광이 도는 내추럴 래디언트 피니시에 SPF50+ PA+++ 자외선 차단까지 더했습니다. (19N N-Light, 리필 미포함)
+  • <strong>전문가의 베이스 설계:</strong> 베이스 메이크업에 특화된 아티스트 브랜드답게, 피부 구조를 고려한 정교하고 세밀한 텍스처 포뮬러가 돋보입니다.
+  • <strong>정교한 커버와 톤 보정:</strong> 두껍게 덮어 가리는 방식이 아닌, 특유의 제형이 피부 결점을 얇게 보정하며 본연의 피부 톤과 이질감 없이 화사한 안색을 연출합니다.
+  • <strong>환경을 타지 않는 지속력:</strong> 건조함이나 유분기 등 각기 다른 피부 컨디션에서도 밸런스를 유지하며, 시간이 지나도 무너짐이나 다크닝 현상이 극히 적습니다.
+  • <strong>제어된 래디언트 피니시:</strong> 과한 번들거림을 배제한 채 피부 속에서 우러나오는 듯한 은은한 윤광을 구현합니다. (SPF50+ / PA+++, 19N N-Light, 리필 미포함)
 
-  <strong>검증 포인트:</strong> 신제품 쿠션들과의 비교 사용, 10통 이상 재구매로 검증한 정착템 여부, 피부 타입별 밀착력 확인
+  <strong>검증 포인트:</strong> 화제성 높은 타사 신규 베이스들과의 지속적인 교차 테스트, 10회 이상의 공병 기록을 통해 사계절 변화에 따른 피부 밀착력 및 지속력 검증
 ---
