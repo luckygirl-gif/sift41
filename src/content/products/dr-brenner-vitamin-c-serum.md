@@ -8,7 +8,7 @@ buyUrl: "https://amzn.to/4bm8mMY"
 date: 2026-07-30
 summary: "A stable 20% L-ascorbic acid formula in the classic C+E+ferulic tradition — repurchased 20+ times for its measurable brightening. 1 fl oz."
 descEn: |-
-  Twenty-plus bottles in, the dupe angle is beside the point. The formula itself earns the repurchases: stable, effective, honestly priced.
+  The ingredient list is nearly identical to a luxury serum several times the price. Twenty-plus bottles later, it has earned every repurchase: stable, effective, honestly priced.
 
   • <strong>A proven antioxidant trio:</strong> 20% pure L-ascorbic acid, plus ferulic acid and vitamin E. The classic combination, stabilized for potency and absorption.
   • <strong>Brightening you can track:</strong> No instant-glow illusion. Over long-term use, dark spots faded and overall clarity improved.
@@ -17,7 +17,7 @@ descEn: |-
 
   <strong>What we verified:</strong> ingredient list compared against the original luxury serum, 20+ bottles repurchased, pigmentation changes tracked
 descKo: |-
-  그 유명한 고가 세럼과 성분 구성이 거의 같습니다. 20병 넘게 다시 산 이유는 배합의 완성도 때문입니다.
+  성분표만 놓고 보면 고가 하이엔드 세럼과 거의 같습니다. 20병 넘게 다시 산 이유는 배합의 완성도 때문입니다.
 
   • <strong>검증된 3중 항산화 설계:</strong> 순수 비타민C(L-아스코르빈산) 20%에 페룰릭산과 비타민 E를 더했습니다. 쉽게 변질되는 비타민 C를 안정시키고, 피부에 잘 흡수되게 돕는 조합입니다.
   • <strong>명확한 브라이트닝 변화:</strong> 잠깐 환해 보이는 효과가 아닙니다. 오래 쓰면서 기미와 잡티가 눈에 띄게 옅어졌습니다. 얼굴 톤도 전보다 맑아졌습니다.
