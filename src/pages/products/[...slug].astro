@@ -11,7 +11,9 @@ export async function getStaticPaths() {
 const { product } = Astro.props;
 const d = product.data;
 
-// 불릿 줄은 행잉 인덴트가 걸리도록 줄 단위로 <p>에 감싼다 (둘째 줄부터 본문 위치에 정렬)
+// 불릿을 라벨 열 + 설명 열의 2열(flex)로 렌더링한다.
+// 설명이 줄바꿈되면 설명 열 안에서만 줄바꿈되므로, 둘째 줄이 라벨 밑으로 오지 않고
+// 설명이 시작된 위치에 정렬된다.
 function renderDesc(text) {
   if (!text) return '';
   return text
@@ -19,7 +21,13 @@ function renderDesc(text) {
     .map((line) => {
       const t = line.trim();
       if (!t) return '';
-      if (t.startsWith('•')) return `<p class="li">${t}</p>`;
+      if (t.startsWith('•')) {
+        const m = t.match(/^•\s*(<strong>.*?<\/strong>)\s*(.+)$/);
+        if (m) {
+          return `<div class="li"><span class="li-label">• ${m[1]}</span><span class="li-desc">${m[2]}</span></div>`;
+        }
+        return `<p class="li-plain">${t}</p>`;
+      }
       return `<p class="pp">${t}</p>`;
     })
     .join('');
@@ -76,8 +84,11 @@ const jsonLd = {
     .cat { color:var(--muted); font-size:.82rem; text-transform:lowercase; }
     .body { margin:1rem 0 1.25rem; }
     .body :global(p.pp) { margin:.95em 0; }
-    .body :global(p.li) { margin:.35em 0; padding-left:2em; text-indent:-2em; }
-    .body :global(p.li + p.pp) { margin-top:1.1em; }
+    .body :global(div.li) { display:flex; gap:.45em; align-items:baseline; margin:.55em 0; }
+    .body :global(span.li-label) { flex:0 0 auto; white-space:nowrap; }
+    .body :global(span.li-desc) { flex:1 1 auto; min-width:0; }
+    .body :global(p.li-plain) { margin:.35em 0; padding-left:1.15em; text-indent:-1.15em; }
+    .body :global(div.li + p.pp) { margin-top:1.15em; }
     .buys { display:flex; flex-direction:column; gap:.6rem; align-items:flex-start; }
     .buy { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:.75rem 1.4rem; border-radius:9px; font-weight:600; }
     .buy:hover { filter:brightness(.95); }
