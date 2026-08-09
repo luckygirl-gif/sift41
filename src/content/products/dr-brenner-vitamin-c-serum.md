@@ -15,7 +15,7 @@ descEn: |-
   • <strong>A hydrating counterweight:</strong> High-strength vitamin C tends to dry. Hyaluronic acid offsets it, leaving a comfortable, subtle glow.
   • <strong>Uncompromising standards:</strong> A pared-back formula. Made in the USA under strict quality control. (1 fl oz / 30 ml)
 
-  <strong>What we verified:</strong> ingredient list compared against the original luxury serum, 20+ bottles repurchased, pigmentation changes tracked
+  <strong>What we verified:</strong> blind-tested against the original luxury serum, 20+ bottles repurchased, pigmentation changes tracked
 descKo: |-
   성분표만 놓고 보면 고가 하이엔드 세럼과 거의 같습니다. 20병 넘게 다시 산 이유는 배합의 완성도 때문입니다.
 
@@ -24,5 +24,5 @@ descKo: |-
   • <strong>자극을 줄인 수분 베이스:</strong> 고농축 비타민 C는 피부를 건조하게 만들기 쉽습니다. 히알루론산을 더해 당김 없이 촉촉한 윤기가 돕니다.
   • <strong>타협 없는 성분 기준:</strong> 불필요한 첨가물은 뺐습니다. 미국에서 엄격한 기준으로 만듭니다. (1 fl oz / 30ml)
 
-  <strong>검증 포인트:</strong> 고가 원조 세럼과의 성분표 직접 대조, 20통 이상 재구매 기록, 기미·잡티 변화 추적
+  <strong>검증 포인트:</strong> 고가 원조 세럼과의 블라인드 테스트, 20통 이상 재구매 기록, 기미·잡티 변화 추적
 ---

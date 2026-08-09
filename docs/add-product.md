@@ -15,6 +15,10 @@ Claude가 제목·이미지·소개글을 만들고, 제품 파일을 생성하�
 
 푸시하면 자동 배포됩니다.
 
+## 소개글 톤 규칙
+새 제품의 한국어/영어 소개글은 반드시 [copy-tone-guide.md](copy-tone-guide.md)를 따릅니다.
+(하이엔드 뷰티 에디터 톤, 드라마틱한 후킹·과장 광고 표현 금지, 단문·쉬운 단어)
+
 ## 수익화 규칙 (자동)
 - **Amazon 링크(amzn.to)**: 그대로 사용 — sift41-20 태그로 직접 수익화.
 - **그 외 모든 머천트 링크**: Sovrn Redirect API로 자동 래핑 — `https://redirect.viglink.com?u=<인코딩된URL>&key=c855bdca0941a37e3bafa21514e8907b&prodOvrd=RAL`
