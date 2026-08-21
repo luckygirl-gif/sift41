@@ -58,10 +58,11 @@ function buildCaption(p) {
   const en = stripHtml(p.descEn || '');
   const buy = p.buyUrl ? `구매 링크 | Buy: ${p.buyUrl}` : '';
   const cta = '더 많은 제품과 구매 링크 → 프로필의 sift41.com\nMore picks and links → sift41.com in bio';
-  let caption = [title, disclosure, ko, en, buy, cta, tags].filter(Boolean).join('\n\n');
+  // 구매 링크는 맨 앞과 맨 뒤 두 군데 (2026-08-21 Paula 지시), 광고 표시는 접히기 전 영역(첫 125자) 안에 유지
+  let caption = [buy, disclosure, title, ko, en, cta, tags, buy].filter(Boolean).join('\n\n');
   if (caption.length > 2200) {
     // 영어 소개를 빼서 줄인다 (구매 링크·해시태그는 유지)
-    caption = [title, disclosure, ko, buy, cta, tags].filter(Boolean).join('\n\n');
+    caption = [buy, disclosure, title, ko, cta, tags, buy].filter(Boolean).join('\n\n');
   }
   if (caption.length > 2200) caption = caption.slice(0, 2195) + '…';
   return caption;
