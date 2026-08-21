@@ -1,0 +1,61 @@
+# 사이트 배포가 끝나면 새 제품을 인스타그램에 자동 게시
+name: Instagram auto-post
+
+on:
+  workflow_run:
+    workflows: ["Deploy to GitHub Pages"]
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: instagram-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: 연결 준비 확인
+        id: ready
+        env:
+          PASS: ${{ secrets.IG_TOKEN_PASSPHRASE }}
+        run: |
+          if [ -z "$PASS" ] || [ ! -f data/ig-token.enc ]; then
+            echo "인스타그램 연결이 아직 설정되지 않았습니다 — 건너뜁니다."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 토큰 해제
+        if: steps.ready.outputs.ready == 'true'
+        env:
+          IG_TOKEN_PASSPHRASE: ${{ secrets.IG_TOKEN_PASSPHRASE }}
+        run: |
+          TOKEN=$(openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -base64 -pass env:IG_TOKEN_PASSPHRASE -in data/ig-token.enc)
+          echo "::add-mask::$TOKEN"
+          echo "IG_ACCESS_TOKEN=$TOKEN" >> "$GITHUB_ENV"
+
+      - name: 새 제품 게시
+        if: steps.ready.outputs.ready == 'true'
+        run: node scripts/instagram-post.mjs
+
+      - name: 게시 기록 저장
+        if: always() && steps.ready.outputs.ready == 'true'
+        run: |
+          if ! git diff --quiet data/instagram-posted.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/instagram-posted.json
+            git commit -m "chore: 인스타그램 게시 기록 갱신"
+            git pull --rebase origin main
+            git push origin main
+          fi
