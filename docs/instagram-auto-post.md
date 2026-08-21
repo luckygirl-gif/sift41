@@ -55,7 +55,6 @@ sift41.com에 새 제품이 올라가면 @sift41.official 인스타그램에 같
 - 자동 게시는 Meta 공식 API 사용이므로 인스타 규정 위반 아님. 하루 100건 한도 (전혀 문제 안 됨).
 - FTC: 광고 표시는 "더 보기" 누르기 전에 보여야 함 → 문구 최상단에 광고 표시 배치로 해결.
 - 아마존: 사이트 푸터에 필수 문구("As an Amazon Associate we earn from qualifying purchases.") 추가됨 (2026-08-08).
-  2026-08-21 Paula 지시로 문구에 아마존 구매 링크(buyUrl) 포함. 아마존 규정상 제휴 링크를 올리는
-  인스타 계정은 어소시에이트 계정의 사이트 목록에 등록되어 있어야 한다 —
-  Associates Central → Account Settings → Edit Your Website & App List에
-  https://www.instagram.com/sift41.official 추가 (Paula가 직접, 미완료면 리마인드할 것).
+  2026-08-21 Paula 지시로 문구에 아마존 구매 링크(buyUrl) 포함.
+  인스타 계정(https://www.instagram.com/sift41.official)을 어소시에이트 사이트 목록에
+  등록 완료 (2026-08-21, StoreID sift41-20). 아마존 쪽 요건은 모두 충족된 상태.
