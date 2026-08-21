@@ -52,18 +52,16 @@ const stripHtml = (s) => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replac
 
 function buildCaption(p) {
   const tags = HASHTAGS[p.category] || HASHTAGS.uncategorized;
-  const parts = [
-    p.title,
-    '광고 · 제휴 링크 포함 | Ad · affiliate links',
-    stripHtml(p.descKo || p.summary || ''),
-    stripHtml(p.descEn || ''),
-    '더 많은 제품과 구매 링크 → 프로필의 sift41.com\nMore picks and links → sift41.com in bio',
-    tags,
-  ].filter(Boolean);
-  let caption = parts.join('\n\n');
+  const title = p.title;
+  const disclosure = '광고 · 제휴 링크 포함 | Ad · affiliate links';
+  const ko = stripHtml(p.descKo || p.summary || '');
+  const en = stripHtml(p.descEn || '');
+  const buy = p.buyUrl ? `구매 링크 | Buy: ${p.buyUrl}` : '';
+  const cta = '더 많은 제품과 구매 링크 → 프로필의 sift41.com\nMore picks and links → sift41.com in bio';
+  let caption = [title, disclosure, ko, en, buy, cta, tags].filter(Boolean).join('\n\n');
   if (caption.length > 2200) {
-    // 영어 소개를 빼서 줄인다 (해시태그는 유지)
-    caption = [parts[0], parts[1], parts[2], parts[4], parts[5]].join('\n\n');
+    // 영어 소개를 빼서 줄인다 (구매 링크·해시태그는 유지)
+    caption = [title, disclosure, ko, buy, cta, tags].filter(Boolean).join('\n\n');
   }
   if (caption.length > 2200) caption = caption.slice(0, 2195) + '…';
   return caption;
