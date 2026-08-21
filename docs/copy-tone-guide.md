@@ -49,3 +49,7 @@ sift41 제품 소개글은 한국어(descKo)·영어(descEn) 모두 반드시 �
 **Why:** 2026-07-18 "의심→검증 스토리텔링" 확정 → 07-20 가독성 개편(훅+불릿) → 07-30 Paula가 "그 훅 스타일 자체가 바이럴 광고 클리셰"라며 에디터 톤으로 전면 개정. 소비자는 호들갑보다 객관적 사실과 정제된 경험담에 진정성을 느낀다는 판단.
 
 **How to apply:** 새 제품의 descKo/descEn 작성 시 이 페르소나와 3원칙으로 초안 작성, 배포 전 Paula 확인 필수 (대규모 문안은 검토 후 배포가 Paula 선호). 2026-07-30 개정 톤의 실제 예시는 dr-brenner-vitamin-c-serum.md, jung-saem-mool-skin-nuder-cushion.md 참고. 관련: [[sift41-migration-status]], [[sift41-bilingual-descriptions]], [[sift41-product-images]]
+
+## 제품 추가 시 인스타그램 연동 (2026-08-08)
+
+새 제품을 추가하면 인스타그램에 자동 게시된다. **인스타 전용 사진(`public/images/instagram/<image 파일명>.jpg`, JPEG, 4:5~1.91:1)을 반드시 함께 만들 것.** 전체 체크리스트: `docs/instagram-auto-post.md`
