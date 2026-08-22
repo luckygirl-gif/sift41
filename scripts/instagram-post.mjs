@@ -9,6 +9,8 @@ const PRODUCTS_DIR = 'src/content/products';
 const STATE_FILE = process.env.STATE_FILE || 'data/instagram-posted.json';
 const TOKEN = process.env.IG_ACCESS_TOKEN;
 const DRY_RUN = process.env.DRY_RUN === '1';
+const DAILY_LIMIT = Number(process.env.DAILY_LIMIT || 3); // 하루 최대 게시 수 (2026-08-21 Paula: 하루 2~3개)
+const todayLA = () => new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
 
 // 분류별 해시태그 30개 (2026-08-08 Paula 확정)
 const HASHTAGS = {
@@ -136,6 +138,7 @@ async function main() {
 
   const state = JSON.parse(readFileSync(STATE_FILE, 'utf8'));
   const posted = new Set(state.posted);
+  const daily = state.daily && state.daily.date === todayLA() ? state.daily : { date: todayLA(), count: 0 };
 
   const files = readdirSync(PRODUCTS_DIR).filter((f) => f.endsWith('.md'));
   const pending = [];
@@ -149,21 +152,26 @@ async function main() {
   pending.sort((a, b) => (a.date || '').localeCompare(b.date || '') || a.slug.localeCompare(b.slug));
 
   if (pending.length === 0) { console.log('새로 올릴 제품이 없습니다.'); return; }
-  console.log(`올릴 제품 ${pending.length}개: ${pending.map((p) => p.slug).join(', ')}`);
+  const room = Math.max(0, DAILY_LIMIT - daily.count);
+  if (room === 0) { console.log(`오늘 게시 한도(${DAILY_LIMIT}개)에 이미 도달 — 나머지 ${pending.length}개는 내일 이어서 올립니다.`); return; }
+  const queue = pending.slice(0, room);
+  if (queue.length < pending.length) console.log(`대기 ${pending.length}개 중 오늘은 ${queue.length}개만 올립니다 (하루 ${DAILY_LIMIT}개 제한).`);
+  console.log(`올릴 제품 ${queue.length}개: ${queue.map((p) => p.slug).join(', ')}`);
 
   const me = TOKEN ? await api('/me', { fields: 'user_id,username' }) : { user_id: '0', username: 'dry-run' };
   const igUserId = me.user_id;
   console.log(`인스타그램 계정: @${me.username}`);
 
   let failed = 0;
-  for (const p of pending) {
+  for (const p of queue) {
     console.log(`\n[${p.slug}] 게시 시작`);
     try {
       const id = await publishOne(igUserId, p);
       console.log(`  게시 완료 (id: ${id})`);
       if (!DRY_RUN) {
         posted.add(p.slug);
-        writeFileSync(STATE_FILE, JSON.stringify({ posted: [...posted].sort() }, null, 2) + '\n');
+        daily.count++;
+        writeFileSync(STATE_FILE, JSON.stringify({ posted: [...posted].sort(), daily }, null, 2) + '\n');
       }
     } catch (e) {
       failed++;
