@@ -35,23 +35,33 @@ sift41.com에 새 제품이 올라가면 @sift41.official 인스타그램에 같
 - `Instagram token refresh` 워크플로가 매달 1일·15일에 토큰을 갱신해 다시 암호화 저장 → 만료 걱정 없음.
 - 인스타그램 비밀번호를 바꾸면 토큰이 즉시 무효화됨 → 아래 "연결 다시 하기" 필요.
 
-## 최초 설정 (1회) — 남은 작업
+## 최초 설정 — 완료 (2026-08-22)
 
-1. https://developers.facebook.com 에서 Paula 계정으로 앱 생성 (Use case: "Instagram", 앱은 개발 모드 유지)
-2. Instagram API with Instagram Login 설정에서 @sift41.official 계정을 Instagram Tester/역할로 추가
-3. Business Login 설정: Redirect URI는 https://www.sift41.com/ 사용 가능
-4. 인증 URL로 로그인 → code 획득 → 단기 토큰 → `ig_exchange_token`으로 60일 토큰 교환
-   - 권한(scope): `instagram_business_basic,instagram_business_content_publish`
-5. 토큰 암호화 저장 + 암호를 GitHub Secrets에 등록:
-   ```
-   printf '%s' "<토큰>" | openssl enc -aes-256-cbc -pbkdf2 -iter 200000 -salt -base64 -pass env:IG_TOKEN_PASSPHRASE -out data/ig-token.enc
-   gh secret set IG_TOKEN_PASSPHRASE
-   ```
-6. 커밋 & push → 이후 완전 자동.
+설정은 끝났고 완전 자동으로 돌고 있다. 기록:
+
+- Meta 개발자 계정: Paula의 Facebook 계정 (문자 인증이 안 와서 카드 인증으로 통과, 기본 이메일 infosift41@gmail.com)
+- 앱: **SIFT41 Autopost** (앱 ID 895061343361915), Use case "Manage messaging & content on Instagram", 개발 모드 유지. Instagram app ID 28120642544252506
+- 권한: `instagram_business_basic` + `instagram_business_content_publish` (둘 다 Ready for testing)
+- @sift41.official을 App roles → Instagram Tester로 추가하고 인스타그램 쪽 (Apps and Websites → Tester Invites)에서 수락
+- API setup with Instagram login → Generate token으로 60일 토큰 발급, 암호화 저장 + Secret 등록 (커밋 1ade0ad)
+- 첫 실행 (2026-08-22): chanel, electrolyte, mediheal 세럼 3개 게시 확인
 
 ## 연결 다시 하기 (토큰이 무효가 됐을 때)
 
-위 4~6번만 다시 하면 된다. 증상: Instagram auto-post 워크플로 실패, 오류에 OAuthException/code 190.
+증상: Instagram auto-post 워크플로 실패, 오류에 OAuthException/code 190. (인스타 비밀번호를 바꾸면 즉시 발생)
+
+1. https://developers.facebook.com/apps/895061343361915 → Use cases → Customize →
+   API setup with Instagram login → 계정 목록의 @sift41.official 옆 **Generate token**
+2. 팝업에서 Allow → 토큰 **Copy** (채팅에 붙여넣지 말 것 — 클립보드에서 바로 처리)
+3. 토큰 암호화 저장 + 암호를 GitHub Secrets에 등록:
+   ```
+   export IG_TOKEN_PASSPHRASE=$(openssl rand -base64 32)
+   pbpaste | tr -d '[:space:]' | openssl enc -aes-256-cbc -pbkdf2 -iter 200000 -salt -base64 -pass env:IG_TOKEN_PASSPHRASE -out data/ig-token.enc
+   gh secret set IG_TOKEN_PASSPHRASE --body "$IG_TOKEN_PASSPHRASE"
+   ```
+4. 커밋 & push → 다시 자동.
+
+막다른 길이면 무료 대안: **Zernio** (구 Late, getlate.dev) — 소셜 계정 2개까지 영구 무료, 자체 OAuth라 개발자 계정 불필요 (2026-08-22 조사).
 
 ## 규정 관련 (2026-08-08 조사 확정)
 
