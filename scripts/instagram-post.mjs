@@ -128,8 +128,19 @@ async function publishOne(igUserId, p) {
     await sleep(5000);
   }
 
-  // 3) 게시
-  const pub = await api(`/${igUserId}/media_publish`, { creation_id: container.id }, 'POST');
+  // 3) 게시 (준비 완료 응답 뒤에도 잠시 거절되는 경우가 있어 5번까지 재시도)
+  let pub;
+  for (let attempt = 1; ; attempt++) {
+    try {
+      pub = await api(`/${igUserId}/media_publish`, { creation_id: container.id }, 'POST');
+      break;
+    } catch (e) {
+      const notReady = /"code":9007|2207027|not ready|Media ID is not available/i.test(e.message);
+      if (!notReady || attempt >= 5) throw e;
+      console.log(`  게시 거절(${attempt}번째, 사진 준비 지연) — 20초 뒤 재시도`);
+      await sleep(20000);
+    }
+  }
   return pub.id;
 }
 
