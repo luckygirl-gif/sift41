@@ -50,6 +50,10 @@ jobs:
         if: steps.ready.outputs.ready == 'true'
         run: node scripts/instagram-post.mjs
 
+      - name: 스토리 게시 (하루 1개, 피드 제품 돌아가며)
+        if: always() && steps.ready.outputs.ready == 'true'
+        run: node scripts/instagram-story.mjs
+
       - name: 게시 기록 저장
         if: always() && steps.ready.outputs.ready == 'true'
         run: |

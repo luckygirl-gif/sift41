@@ -17,6 +17,21 @@ sift41.com에 새 제품이 올라가면 @sift41.official 인스타그램에 같
 → 제목 → 한국어 소개 → 영어 소개 → sift41.com 안내 → 분류별 해시태그 30개 → **구매 링크(맨 뒤 한 번 더)**.
 구매 링크 두 군데는 2026-08-21 Paula 지시. 2,200자 초과 시 영어 소개를 뺀다 (구매 링크·해시태그는 유지).
 
+## 스토리 자동 게시 (2026-08-22 Paula 지시)
+
+같은 워크플로가 **매일 스토리 1개**를 추가로 올린다 (`scripts/instagram-story.mjs`).
+
+- 피드에 이미 게시된 제품을 게시 순서대로 하루 1개씩 돌아가며 올린다. 한 바퀴 돌면 처음부터 다시.
+- 스토리 사진은 `public/images/stories/<이미지이름>.jpg` (1080x1920 세로). `scripts/build-story-images.py`가
+  인스타용 4:5 사진에서 자동으로 만든다 (흰 배경 + Sift41 워드마크 + 제품 사진 + 제품명 + 구매 안내 버튼 모양).
+  macOS 시스템 글꼴을 쓰므로 Paula의 Mac에서 실행한다.
+- 게시 기록은 `data/instagram-posted.json`의 `story` 항목 (`date`, `lastSlug`). 하루 1개 제한은 이 날짜로 지킨다.
+- **눌리는 링크 스티커는 불가능** — Meta가 자동 게시 API에 스티커(링크·설문 등)를 허용하지 않는다
+  (2026-08-22 공식 문서 확인: "Publishing stickers (i.e., link, poll, location) is not supported").
+  Buffer, Later 등 모든 예약 도구가 같은 제약이라 "폰 알림 → 손으로 마무리" 방식으로만 우회한다.
+  그래서 사진 안에 "구매 링크 → 프로필의 sift41.com" 안내를 새겨 넣는 방식을 쓴다.
+- 스토리는 JPEG만 허용 (Meta 규정), 최대 8MB, 9:16 권장 — 생성 스크립트가 전부 맞춰서 만든다.
+
 ## 제품 추가할 때 반드시 할 일 (Claude 체크리스트)
 
 1. `src/content/products/<slug>.md` 작성 (기존 형식 유지 — frontmatter 파서가 이 형식에 의존)
@@ -25,7 +40,8 @@ sift41.com에 새 제품이 올라가면 @sift41.official 인스타그램에 같
    - JPEG만 가능 (webp/png 불가), 가로:세로 비율 0.8(4:5)~1.91, 권장 1080x1350 또는 1080x1080
    - 세로가 긴 사진은 위아래를 잘라 4:5로 만든다 (흰 배경이 아니면 여백 붙이기 금지)
    - 파일명은 content의 slug가 아니라 **image 필드의 파일명**을 따른다
-4. push → 배포 후 자동 게시됨. 사진이 없으면 워크플로가 실패하고 다음 push 때 재시도된다.
+4. **스토리용 사진 생성: `python3 scripts/build-story-images.py`** (없는 것만 만들어준다)
+5. push → 배포 후 자동 게시됨. 사진이 없으면 워크플로가 실패하고 다음 push 때 재시도된다.
 
 ## 토큰 (연결 열쇠) 관리
 
