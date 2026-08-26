@@ -18,8 +18,21 @@ const HASHTAGS = {
 };
 HASHTAGS.uncategorized = HASHTAGS.home;
 
+// 인스타는 게시물 하나에 태그(#) 30개까지만 허용한다. 넘으면 게시 자체가 거부된다
+// (2026-08-26: 문구에 #ad #광고 2개가 늘면서 32개가 되어 하루치 3개가 전부 실패했다).
+// 그래서 분류 해시태그를 뒤에서부터 잘라 전체가 30개를 넘지 않게 맞춘다.
+const TAG_LIMIT = 30;
+function fitHashtags(tagLine, usedElsewhere) {
+  const list = tagLine.split(/\s+/).filter(Boolean);
+  const room = Math.max(0, TAG_LIMIT - usedElsewhere);
+  if (list.length <= room) return tagLine;
+  console.log(`  해시태그 ${list.length + usedElsewhere}개 → ${TAG_LIMIT}개로 줄임 (인스타 제한)`);
+  return list.slice(0, room).join(' ');
+}
+const countTags = (s) => (s.match(/#[^\s#]+/g) || []).length;
+
 function buildCaption(p) {
-  const tags = HASHTAGS[p.category] || HASHTAGS.uncategorized;
+  const rawTags = HASHTAGS[p.category] || HASHTAGS.uncategorized;
   const title = p.title;
   const disclosure = '광고 · 제휴 링크 포함 | Ad · affiliate links';
   const ko = stripHtml(p.descKo || p.summary || '');
@@ -29,6 +42,8 @@ function buildCaption(p) {
   const buyTop = p.buyUrl ? `구매 링크 | Buy: ${p.buyUrl} #ad #광고` : '';
   const buyEnd = p.buyUrl ? `구매 링크 | Buy: ${p.buyUrl}` : '';
   const cta = '더 많은 제품과 구매 링크 → 프로필의 sift41.com\nMore picks and links → sift41.com in bio';
+  // 짧은 광고 표시(#ad #광고)도 태그로 세어지므로 그만큼 분류 해시태그를 줄인다
+  const tags = fitHashtags(rawTags, countTags(buyTop) + countTags(title) + countTags(ko) + countTags(en) + countTags(cta) + countTags(disclosure));
   // 구매 링크는 앞과 맨 뒤 두 군데 (2026-08-21 Paula 지시)
   let caption = [title, buyTop, ko, en, cta, tags, buyEnd, disclosure].filter(Boolean).join('\n\n');
   if (caption.length > 2200) {
