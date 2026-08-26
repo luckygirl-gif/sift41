@@ -1,21 +1,24 @@
 {
   "posted": [
+    "aspenclean-oxygen-bleach",
     "chanel",
+    "doublewood-magnesium-l-threonate",
     "electrolyte",
     "espoir-brow-cara",
     "estud-niacinamide-serum",
     "goddards-silver-polish-foam",
+    "loewe-aire-sutileza-eau-de-toilette",
     "mediheal-madecassoside-repair-serum",
     "omegavia-ultra-concentrated",
     "ther-biotic-synbiotic-prebiotics",
     "thorne-basic-b-complex"
   ],
   "daily": {
-    "date": "2026-08-25",
+    "date": "2026-08-26",
     "count": 3
   },
   "story": {
-    "date": "2026-08-25",
-    "lastSlug": "electrolyte"
+    "date": "2026-08-26",
+    "lastSlug": "omegavia-ultra-concentrated"
   }
 }
