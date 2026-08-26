@@ -1,0 +1,22 @@
+# 인스타그램 연결이 막혔을 때 "무엇이 막혀 있는지"만 알아보는 점검. 게시는 하지 않는다.
+name: Instagram 연결 점검
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 토큰 해제
+        env:
+          IG_TOKEN_PASSPHRASE: ${{ secrets.IG_TOKEN_PASSPHRASE }}
+        run: |
+          TOKEN=$(openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -base64 -pass env:IG_TOKEN_PASSPHRASE -in data/ig-token.enc)
+          echo "::add-mask::$TOKEN"
+          echo "IG_ACCESS_TOKEN=$TOKEN" >> "$GITHUB_ENV"
+
+      - name: 점검
+        run: node scripts/ig-diagnose.mjs
