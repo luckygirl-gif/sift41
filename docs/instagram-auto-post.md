@@ -71,7 +71,13 @@ sift41.com에 새 제품이 올라가면 @sift41.official 인스타그램에 같
 
 1. https://developers.facebook.com/apps/895061343361915 → Use cases → Customize →
    API setup with Instagram login → 계정 목록의 @sift41.official 옆 **Generate token**
-2. 팝업에서 Allow → 토큰 **Copy** (채팅에 붙여넣지 말 것 — 클립보드에서 바로 처리)
+2. 팝업에서 Allow → 토큰 **Copy**
+   - 채팅에 붙여넣지 말 것 — 클립보드에서 바로 처리한다.
+   - **Copy 한 뒤 "복사했다"는 답장은 반드시 직접 타자로 친다.** 다른 데서 쓴 문장을
+     복사해 붙여넣으면 그 순간 클립보드의 토큰이 덮어써진다 (2026-08-26에 두 번 발생).
+   - 받는 쪽은 쓰기 전에 길이(150자 이상)와 앞머리(`IGA`)부터 확인한다.
+   - 팝업이 "Change to professional account?" 를 물으면 **엉뚱한 계정을 잡은 것.**
+     Cancel 하고, 브라우저에서 @sift41.official 로 로그인돼 있는지부터 확인한다.
 3. 토큰 암호화 저장 + 암호를 GitHub Secrets에 등록:
    ```
    export IG_TOKEN_PASSPHRASE=$(openssl rand -base64 32)
