@@ -24,13 +24,16 @@ function buildCaption(p) {
   const disclosure = '광고 · 제휴 링크 포함 | Ad · affiliate links';
   const ko = stripHtml(p.descKo || p.summary || '');
   const en = stripHtml(p.descEn || '');
-  const buy = p.buyUrl ? `구매 링크 | Buy: ${p.buyUrl}` : '';
+  // 첫 줄은 제품 이름 (계정 이름 옆에 링크가 붙지 않게), 구매 링크는 둘째 줄부터 (2026-08-25 Paula 지시)
+  // 짧은 광고 표시(#ad #광고)는 접히기 전 영역에 필수(FTC·아마존 제휴 약관), 긴 표시는 맨 밑으로
+  const buyTop = p.buyUrl ? `구매 링크 | Buy: ${p.buyUrl} #ad #광고` : '';
+  const buyEnd = p.buyUrl ? `구매 링크 | Buy: ${p.buyUrl}` : '';
   const cta = '더 많은 제품과 구매 링크 → 프로필의 sift41.com\nMore picks and links → sift41.com in bio';
-  // 구매 링크는 맨 앞과 맨 뒤 두 군데 (2026-08-21 Paula 지시), 광고 표시는 접히기 전 영역(첫 125자) 안에 유지
-  let caption = [buy, disclosure, title, ko, en, cta, tags, buy].filter(Boolean).join('\n\n');
+  // 구매 링크는 앞과 맨 뒤 두 군데 (2026-08-21 Paula 지시)
+  let caption = [title, buyTop, ko, en, cta, tags, buyEnd, disclosure].filter(Boolean).join('\n\n');
   if (caption.length > 2200) {
     // 영어 소개를 빼서 줄인다 (구매 링크·해시태그는 유지)
-    caption = [buy, disclosure, title, ko, cta, tags, buy].filter(Boolean).join('\n\n');
+    caption = [title, buyTop, ko, cta, tags, buyEnd, disclosure].filter(Boolean).join('\n\n');
   }
   if (caption.length > 2200) caption = caption.slice(0, 2195) + '…';
   return caption;
