@@ -3,7 +3,9 @@
 const token = process.env.IG_ACCESS_TOKEN;
 if (!token) { console.log('토큰이 없습니다.'); process.exit(1); }
 
-const show = (v) => JSON.stringify(v).slice(0, 600);
+// 응답에 토큰이 들어 있으면 절대 그대로 찍지 않는다 (2026-08-26에 실제로 새 토큰이 로그에 노출됨).
+const REDACT = /^(access_token|token|input_token|client_secret)$/i;
+const show = (v) => JSON.stringify(v, (k, val) => (REDACT.test(k) ? '***가려짐***' : val)).slice(0, 600);
 
 async function probe(label, url) {
   process.stdout.write(`\n[${label}]\n  ${url.replace(/access_token=[^&]+/g, 'access_token=***').replace(/input_token=[^&]+/g, 'input_token=***')}\n`);
