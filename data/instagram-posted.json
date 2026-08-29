@@ -6,22 +6,25 @@
     "electrolyte",
     "espoir-brow-cara",
     "estud-niacinamide-serum",
+    "florastor-dual-action-probiotic",
     "goddards-silver-polish-foam",
     "guerande-fleur-de-sel",
     "isamaya-skin-enhancing-duo",
+    "jarro-dophilus-eps",
     "lagom-cellup-micro-foam-cleanser",
     "loewe-aire-sutileza-eau-de-toilette",
     "mediheal-madecassoside-repair-serum",
+    "miss-mouths-stain-treater",
     "omegavia-ultra-concentrated",
     "ther-biotic-synbiotic-prebiotics",
     "thorne-basic-b-complex"
   ],
   "daily": {
-    "date": "2026-08-27",
+    "date": "2026-08-28",
     "count": 3
   },
   "story": {
-    "date": "2026-08-27",
-    "lastSlug": "ther-biotic-synbiotic-prebiotics"
+    "date": "2026-08-28",
+    "lastSlug": "thorne-basic-b-complex"
   }
 }
