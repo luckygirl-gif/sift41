@@ -1,8 +1,10 @@
 {
   "posted": [
     "aspenclean-oxygen-bleach",
+    "bioderma-sensibio-h2o-micellar-water",
     "chanel",
     "doublewood-magnesium-l-threonate",
+    "dr-brenner-vitamin-c-serum",
     "electrolyte",
     "espoir-brow-cara",
     "estud-niacinamide-serum",
@@ -11,6 +13,7 @@
     "guerande-fleur-de-sel",
     "isamaya-skin-enhancing-duo",
     "jarro-dophilus-eps",
+    "jung-saem-mool-skin-nuder-cushion",
     "lagom-cellup-micro-foam-cleanser",
     "loewe-aire-sutileza-eau-de-toilette",
     "mediheal-madecassoside-repair-serum",
@@ -20,11 +23,11 @@
     "thorne-basic-b-complex"
   ],
   "daily": {
-    "date": "2026-08-28",
+    "date": "2026-08-29",
     "count": 3
   },
   "story": {
-    "date": "2026-08-28",
-    "lastSlug": "thorne-basic-b-complex"
+    "date": "2026-08-29",
+    "lastSlug": "espoir-brow-cara"
   }
 }
