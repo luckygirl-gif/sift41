@@ -3,6 +3,7 @@
     "aspenclean-oxygen-bleach",
     "bioderma-sensibio-h2o-micellar-water",
     "chanel",
+    "dalba-first-spray-serum",
     "doublewood-magnesium-l-threonate",
     "dr-brenner-vitamin-c-serum",
     "electrolyte",
@@ -14,7 +15,9 @@
     "isamaya-skin-enhancing-duo",
     "jarro-dophilus-eps",
     "jung-saem-mool-skin-nuder-cushion",
+    "la-roche-posay-cicaplast-baume-b5",
     "lagom-cellup-micro-foam-cleanser",
+    "loccitane-almond-shower-oil",
     "loewe-aire-sutileza-eau-de-toilette",
     "mediheal-madecassoside-repair-serum",
     "miss-mouths-stain-treater",
@@ -23,11 +26,11 @@
     "thorne-basic-b-complex"
   ],
   "daily": {
-    "date": "2026-08-29",
+    "date": "2026-08-30",
     "count": 3
   },
   "story": {
-    "date": "2026-08-29",
-    "lastSlug": "espoir-brow-cara"
+    "date": "2026-08-30",
+    "lastSlug": "estud-niacinamide-serum"
   }
 }
