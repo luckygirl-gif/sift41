@@ -15,6 +15,7 @@
     "isamaya-skin-enhancing-duo",
     "jarro-dophilus-eps",
     "jung-saem-mool-skin-nuder-cushion",
+    "kerastase-resistance-ciment-thermique",
     "la-roche-posay-cicaplast-baume-b5",
     "lagom-cellup-micro-foam-cleanser",
     "loccitane-almond-shower-oil",
@@ -23,15 +24,16 @@
     "miss-mouths-stain-treater",
     "moroccanoil-all-in-one-leave-in-conditioner",
     "omegavia-ultra-concentrated",
+    "sealy-dreamlife-cooling-pillow",
     "ther-biotic-synbiotic-prebiotics",
     "thorne-basic-b-complex"
   ],
   "daily": {
-    "date": "2026-08-31",
-    "count": 1
+    "date": "2026-09-03",
+    "count": 2
   },
   "story": {
-    "date": "2026-09-02",
-    "lastSlug": "aspenclean-oxygen-bleach"
+    "date": "2026-09-03",
+    "lastSlug": "doublewood-magnesium-l-threonate"
   }
 }
