@@ -8,7 +8,7 @@ buyUrl: "https://amzn.to/4cm2zro"
 date: 2026-09-03
 summary: "A small round-bottomed cast iron pot sized for Korean and Japanese cooking — two to three servings, broth circulates instead of sitting still, and the lid returns moisture to the food. Made in France, 2.35 L."
 descEn: |-
-  A pot that turns out to be the best-looking thing on the dinner table. We liked ours enough to buy a second one as a gift — the <strong>STAUB Wa-NABE 20 cm</strong>, rounded underneath and small enough that it looks even better once it reaches the table.
+  A pot that turns out to be the best-looking thing on the dinner table. We liked ours enough to buy a second one as a gift — the <strong>STAUB Wa-NABE 20 cm</strong>, rounded underneath and small enough to carry straight off the stove and serve out of.
 
   • <strong>STAUB's Wa-NABE, made in France:</strong> A line built for the one-pot cooking Korean and Japanese kitchens actually do. Enameled cast iron, with a brass knob that stands out against the black.
   • <strong>Weight you feel in the hand:</strong> All 3.2 kg of it. The lid settles down heavily enough that no steam slips out, and the enamel is finished smooth.
@@ -18,7 +18,7 @@ descEn: |-
 
   <strong>What we verified:</strong> bought a second one as a gift after using the first, cooked Korean and Japanese dishes in it over months
 descKo: |-
-  매일 차리는 저녁 상에 근사한 오브제 하나를 더해줄 냄비를 소개할게요. 직접 써보고 너무 맘에 들어 선물용으로 하나 더 산 <strong>STAUB Wa-NABE 20cm</strong>, 바닥이 동그랗고 크기가 앙증맞아 식탁에 올려보면 더욱 앙증맞습니다.
+  매일 차리는 저녁 상에 근사한 오브제 하나를 더해줄 냄비를 소개할게요. 직접 써보고 너무 맘에 들어 선물용으로 하나 더 산 <strong>STAUB Wa-NABE 20cm</strong>, 바닥이 동그랗고 크기가 앙증맞아 끓인 그대로 식탁에 올리면 그 자체로 그릇이 됩니다.
 
   • <strong>프랑스에서 만든 법랑 무쇠:</strong> 한식과 일식의 한 그릇 요리에 맞춰 나온 Wa-NABE 라인입니다. 무쇠에 법랑을 입혀 프랑스에서 만들고, 황동 손잡이가 검은 법랑과 대비되어 식탁 위에서 눈에 띕니다.
   • <strong>손에 전해지는 묵직함:</strong> 3.2kg 의 무게가 그대로 전해집니다. 뚜껑을 덮으면 묵직하게 내려앉아 김이 새지 않고, 법랑 표면은 매끈하게 마감돼 있습니다.
