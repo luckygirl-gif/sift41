@@ -19,7 +19,8 @@ const HASHTAGS = {
 HASHTAGS.uncategorized = HASHTAGS.home;
 
 // 인스타는 게시물 하나에 태그(#) 30개까지만 허용한다. 넘으면 게시 자체가 거부된다
-// (2026-08-26: 문구에 #ad #광고 2개가 늘면서 32개가 되어 하루치 3개가 전부 실패했다).
+// (2026-08-26: 문구에 #ad #광고 2개가 늘면서 32개가 되어 하루치 3개가 전부 실패했다.
+//  2026-09-04에 그 두 개를 뺐지만, 문구가 또 바뀔 때를 대비해 맞추는 장치는 남겨 둔다).
 // 그래서 분류 해시태그를 뒤에서부터 잘라 전체가 30개를 넘지 않게 맞춘다.
 const TAG_LIMIT = 30;
 function fitHashtags(tagLine, usedElsewhere) {
@@ -31,24 +32,30 @@ function fitHashtags(tagLine, usedElsewhere) {
 }
 const countTags = (s) => (s.match(/#[^\s#]+/g) || []).length;
 
+// 인스타 문구는 불릿 대신 단락으로 쓴다 (2026-09-04 Paula 지시 — 좁은 화면에서 불릿이
+// 오히려 읽기 어렵다). 웹사이트는 그대로 불릿이고, 여기서만 바꾼다.
+// 제품 파일의 소개글은 한 문단이 한 줄이므로, 줄마다 불릿 기호를 떼고 빈 줄로 띄운다.
+const toParagraphs = (text) =>
+  text.split('\n').map((l) => l.replace(/^\s*[•·]\s*/, '').trim()).filter(Boolean).join('\n\n');
+
 function buildCaption(p) {
   const rawTags = HASHTAGS[p.category] || HASHTAGS.uncategorized;
   const title = p.title;
   const disclosure = '광고 · 제휴 링크 포함 | Ad · affiliate links';
-  const ko = stripHtml(p.descKo || p.summary || '');
-  const en = stripHtml(p.descEn || '');
-  // 첫 줄은 제품 이름 (계정 이름 옆에 링크가 붙지 않게), 구매 링크는 둘째 줄부터 (2026-08-25 Paula 지시)
-  // 짧은 광고 표시(#ad #광고)는 접히기 전 영역에 필수(FTC·아마존 제휴 약관), 긴 표시는 맨 밑으로
-  const buyTop = p.buyUrl ? `구매 링크 | Buy: ${p.buyUrl} #ad #광고` : '';
-  const buyEnd = p.buyUrl ? `구매 링크 | Buy: ${p.buyUrl}` : '';
+  const ko = toParagraphs(stripHtml(p.descKo || p.summary || ''));
+  const en = toParagraphs(stripHtml(p.descEn || ''));
+  // 구매 링크는 sift41 제품 화면으로 보낸다 (2026-09-04 Paula 지시). 제휴사 주소를 그대로
+  // 쓰면 redirect.viglink.com 같은 낯선 주소가 그대로 보이고, 구매 버튼이 둘 이상인
+  // 제품은 링크 하나로 담을 수도 없다. 제품 화면에는 버튼이 다 있고 수수료도 그대로 붙는다.
+  const buy = `구매 링크 | Buy: ${SITE}/products/${p.slug}/`;
   const cta = '더 많은 제품과 구매 링크 → 프로필의 sift41.com\nMore picks and links → sift41.com in bio';
-  // 짧은 광고 표시(#ad #광고)도 태그로 세어지므로 그만큼 분류 해시태그를 줄인다
-  const tags = fitHashtags(rawTags, countTags(buyTop) + countTags(title) + countTags(ko) + countTags(en) + countTags(cta) + countTags(disclosure));
+  // #ad #광고 해시태그는 뺐다 (2026-09-04 Paula 지시 — 맨 아래 광고 표기와 겹친다)
+  const tags = fitHashtags(rawTags, countTags(title) + countTags(ko) + countTags(en) + countTags(cta) + countTags(disclosure));
   // 구매 링크는 앞과 맨 뒤 두 군데 (2026-08-21 Paula 지시)
-  let caption = [title, buyTop, ko, en, cta, tags, buyEnd, disclosure].filter(Boolean).join('\n\n');
+  let caption = [title, buy, ko, en, cta, tags, buy, disclosure].filter(Boolean).join('\n\n');
   if (caption.length > 2200) {
     // 영어 소개를 빼서 줄인다 (구매 링크·해시태그는 유지)
-    caption = [title, buyTop, ko, cta, tags, buyEnd, disclosure].filter(Boolean).join('\n\n');
+    caption = [title, buy, ko, cta, tags, buy, disclosure].filter(Boolean).join('\n\n');
   }
   if (caption.length > 2200) caption = caption.slice(0, 2195) + '…';
   return caption;
