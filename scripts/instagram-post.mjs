@@ -55,6 +55,9 @@ function buildCaption(p) {
   let caption = [title, buy, ko, en, cta, tags, buy, disclosure].filter(Boolean).join('\n\n');
   if (caption.length > 2200) {
     // 영어 소개를 빼서 줄인다 (구매 링크·해시태그는 유지)
+    // 조용히 사라지면 되돌릴 수 없으므로 반드시 눈에 띄게 알린다 (2026-09-04).
+    console.log(`  ⚠️  문구가 ${caption.length}자라 2200자를 넘습니다 → 영어 소개(descEn ${en.length}자)를 통째로 뺍니다.`);
+    console.log(`     한국어+영어를 1489자 안쪽으로 줄이면 둘 다 들어갑니다 (지금 ${ko.length + en.length}자).`);
     caption = [title, buy, ko, cta, tags, buy, disclosure].filter(Boolean).join('\n\n');
   }
   if (caption.length > 2200) caption = caption.slice(0, 2195) + '…';
