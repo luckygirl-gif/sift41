@@ -39,7 +39,9 @@ const toParagraphs = (text) =>
   text.split('\n').map((l) => l.replace(/^\s*[•·]\s*/, '').trim()).filter(Boolean).join('\n\n');
 
 function buildCaption(p) {
-  const rawTags = HASHTAGS[p.category] || HASHTAGS.uncategorized;
+  // 제품 파일에 hashtags 가 있으면 분류 태그 대신 그것을 쓴다 (2026-10-24 Paula 지시 —
+  // 인공눈물에 영양제 태그가 붙는 문제. 분류 태그는 그대로 두고 제품마다 따로 줄 수 있게 했다).
+  const rawTags = (p.hashtags && p.hashtags.trim()) || HASHTAGS[p.category] || HASHTAGS.uncategorized;
   const title = p.title;
   const disclosure = '광고 · 제휴 링크 포함 | Ad · affiliate links';
   const ko = toParagraphs(stripHtml(p.descKo || p.summary || ''));

@@ -19,6 +19,7 @@ const products = defineCollection({
     summary: z.string().optional().default(''),
     descEn: z.string().optional().default(''),
     descKo: z.string().optional().default(''),
+    hashtags: z.string().optional().default(''),
   }),
 });
 
