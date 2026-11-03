@@ -82,11 +82,11 @@ const jsonLd = {
     .imgwrap { border:1px solid var(--line); border-radius:14px; overflow:hidden; background:#f6f6f6; }
     .imgwrap img { width:100%; display:block; }
     .cat { color:var(--muted); font-size:.82rem; text-transform:lowercase; }
-    .body { margin:1rem 0 1.25rem; }
+    .body { margin:1rem 0 1.25rem; word-break:keep-all; overflow-wrap:break-word; }
     .body :global(p.pp) { margin:.95em 0; }
-    .body :global(div.li) { display:flex; gap:.45em; align-items:baseline; margin:.55em 0; }
-    .body :global(span.li-label) { flex:0 0 auto; white-space:nowrap; }
-    .body :global(span.li-desc) { flex:1 1 auto; min-width:0; }
+    .body :global(div.li) { margin:1.1em 0; }
+    .body :global(span.li-label) { display:block; margin-bottom:.2em; }
+    .body :global(span.li-desc) { display:block; padding-left:.85em; }
     .body :global(p.li-plain) { margin:.35em 0; padding-left:1.15em; text-indent:-1.15em; }
     .body :global(div.li + p.pp) { margin-top:1.15em; }
     .buys { display:flex; flex-direction:column; gap:.6rem; align-items:flex-start; }
