@@ -3,7 +3,7 @@ import { url } from '../lib/url';
 const { product } = Astro.props;
 const d = product.data;
 const date = d.date instanceof Date ? d.date.toISOString().slice(0, 10) : String(d.date);
-const CAT_KO = { beauty: '뷰티', health: '건강', home: '홈' };
+const CAT_KO = { beauty: '뷰티', health: '건강', home: '홈', book: '책' };
 const catKo = CAT_KO[d.category] || d.category;
 ---
 <a class="card" href={url(`/products/${product.id}/`)} data-category={d.category}>

@@ -7,7 +7,7 @@ const products = (await getCollection('products')).sort(
   (a, b) => +new Date(b.data.date) - +new Date(a.data.date)
 );
 const categories = [...new Set(products.map((p) => p.data.category))].sort();
-const CAT_KO = { beauty: '뷰티', health: '건강', home: '홈' };
+const CAT_KO = { beauty: '뷰티', health: '건강', home: '홈', book: '책' };
 ---
 <Base title="Sift41 — Curated picks">
   <section class="hero">

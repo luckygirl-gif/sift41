@@ -33,7 +33,7 @@ function renderDesc(text) {
     .join('');
 }
 const date = d.date instanceof Date ? d.date.toISOString().slice(0, 10) : String(d.date);
-const CAT_KO = { beauty: '뷰티', health: '건강', home: '홈' };
+const CAT_KO = { beauty: '뷰티', health: '건강', home: '홈', book: '책' };
 const catKo = CAT_KO[d.category] || d.category;
 const site = Astro.site ?? new URL('https://www.sift41.com');
 const jsonLd = {
@@ -70,10 +70,10 @@ const jsonLd = {
           <span class="t-en">Get It →</span><span class="t-ko">구매하기 →</span>
         </a>
       )}
-      <p class="disc muted">
+      {d.brand !== 'Sift@ICA Press' && <p class="disc muted">
         <span class="t-en">Affiliate links — we may earn a small commission at no extra cost to you.</span>
         <span class="t-ko">제휴 링크예요 — 추가 비용 없이 약간의 수수료가 저희한테 와요.</span>
-      </p>
+      </p>}
     </div>
   </article>
   <style>
