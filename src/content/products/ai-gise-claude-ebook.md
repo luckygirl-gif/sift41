@@ -1,6 +1,6 @@
 ---
 title: "AI는 기세다! 클로드편 (Korean eBook)"
-brand: "Sift@ICA Press"
+brand: "Sift Press"
 category: "book"
 image: "/images/products/ai-gise-claude-ebook.jpg"
 price: ""
@@ -14,7 +14,7 @@ descEn: |-
   • <strong>Copy, paste, swap in your details:</strong> Over 70 prompts for teacher emails, IEP and 504 meetings, symptoms, medical bills, menopause, teenagers, parents in Korea, and Social Security forms. Fill the [ ] blanks and paste.
   • <strong>Say it in English anyway:</strong> Claude writes the English and adds the Korean meaning under each sentence. AI makes mistakes, so check medical, insurance, and money questions with a professional. (Korean PDF, 66 pages, download only, no refunds. Not affiliated with Anthropic. Claude subscription not included.)
 
-  <strong>What we verified:</strong> Written and published by us at Sift@ICA Press, file contents checked against the Gumroad page
+  <strong>What we verified:</strong> Written and published by us at Sift Press, file contents checked against the Gumroad page
 descKo: |-
   미국 사는 한국 엄마들, 영어 때문에 답답했던 적 있으시죠? 한국 아줌마들이 잘하는 거 있잖아요. 잔소리와 잡도리! 그걸 AI한테 하면 됩니다.
 
