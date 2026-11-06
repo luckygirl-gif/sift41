@@ -4,7 +4,7 @@ brand: "Sift Press"
 category: "book"
 image: "/images/products/ai-gise-claude-ebook.jpg"
 price: ""
-buyUrl: "https://sifticapress.gumroad.com/l/giseda-claude"
+buyUrl: "https://gum.co/u/yyzhkzyr"
 date: 2026-11-02
 summary: "Our own Korean-language ebook that teaches Korean moms in the US to use Claude by nagging it the way they nag their kids."
 descEn: |-
