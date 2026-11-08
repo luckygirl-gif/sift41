@@ -104,6 +104,8 @@ def build(p):
     canvas.paste(photo, ((W - photo.width) // 2, box_y + (box_h - photo.height) // 2))
 
     # 3) 제품 이름 (최대 2줄)
+    if re.search('[\uac00-\ud7a3]', p['title']):
+        f_title = find_face('/System/Library/Fonts/AppleSDGothicNeo.ttc', 'Apple SD Gothic Neo', ['Bold', 'SemiBold'], 46)
     lines = wrap(draw, p['title'], f_title, 920)
     y = 1420
     for line in lines:
