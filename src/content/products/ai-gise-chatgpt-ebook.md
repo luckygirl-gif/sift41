@@ -6,21 +6,32 @@ image: "/images/products/ai-gise-chatgpt-ebook.jpg"
 price: ""
 buyUrl: "https://gum.co/u/dzfljh4p"
 date: 2026-11-08
-summary: "A Korean-language ebook that sets ChatGPT up as your personal assistant, with 110 prompts you copy, paste, and fill in for school emails, doctor visits, insurance, refunds, and more."
+summary: "A Korean-language ebook with 110 copy-and-paste prompts that put ChatGPT to work as your personal assistant for everyday life in the US."
 descEn: |-
-  Start with that English email you've been putting off. This book shows you how to hand it to ChatGPT, even if English and computers both feel unfamiliar.
+  Even moms get a personal assistant! Everyone's using ChatGPT these days, but you have no idea what to ask it? I've already written it all down for you.
 
-  • <strong>An assistant that listens first:</strong> Its first job is to hear your side of the story. Written in Korean for Korean moms in the US and first-time AI users.
-  • <strong>Copy it and go:</strong> Paste a prompt, change a few details. School emails, doctor visits, insurance, refunds, complaints, counselor meetings, translation. Part 10 covers asking for sources and checking before you act.
-  • <strong>Read it your way:</strong> PDF, reading app, or a searchable prompt library. Health, legal, and tax content is general information, not professional advice. (Gumroad, $15, digital only; 110 prompts; 232-page color PDF, EPUB, HTML editions, flipbook)
+  • <strong>What to ask is already written:</strong> School emails, doctor's offices, insurance, refund and exchange requests, formal complaints, meetings with the school counselor, and translation. The book treats ChatGPT as your own assistant, and its first job is simply to listen to your story.
+  • <strong>Open, copy, paste, fill in:</strong> Open the book → copy → paste → type in your situation. There are 110 prompts, each one written for a specific situation, and you only change a few details to match your life. Part 10 shows you how to ask for sources, tell facts from guesses, and double-check big decisions before you act on them.
+  • <strong>Made for first-timers:</strong> Written for Korean moms in the US and anyone new to English, computers, or AI. Start with that one English email you've been putting off.
+  • Korean
+  • $15 on Gumroad
+  • Digital only
+  • 232-page color PDF
+  • EPUB
+  • Full HTML edition
+  • Flipbook
+  • Searchable prompt library
 
-  <strong>What we verified:</strong> Written and published by Sift Press, contents checked against the sales page
+  <strong>What we verified:</strong> written and published in-house, contents checked against the Gumroad sales page
 descKo: |-
-  아줌마도 개인 비서가 있다! 미뤄 둔 영어 메일 한 통을 ChatGPT한테 맡겨 보세요. 할 말을 다 하고 나면 이 말이 절로 나옵니다. 나도 이걸 해냈네!
+  아줌마도 개인 비서가 있다! 요즘 다들 ChatGPT 쓴다던데, 나는 뭘 시켜야 할지 모르겠다고요?
 
-  • <strong>내 얘기부터 들어 주는 비서:</strong> ChatGPT를 '챗비서'로 두고 일을 시키는 법을 담았습니다. 영어와 컴퓨터가 낯선 미국 사는 한국 엄마께 맞춰 썼어요.
-  • <strong>복사해서 바로 시작:</strong> 명령문을 복사해 붙입니다. 내 상황 몇 군데만 바꾸면 끝이에요. 학교 메일, 병원, 보험, 환불, 항의, 카운슬러 상담, 번역까지 다루고, 근거를 묻고 사실을 확인하는 법도 익힙니다.
-  • <strong>글자 크기도 내 눈에 맞게:</strong> EPUB은 독서 앱에서 글자를 키워 읽을 수 있어요. 의료·법률 설명은 일반 정보라 전문가 상담을 대신하지 못합니다. (Sift Press 디지털 책, 명령문 110개, 컬러 PDF 232쪽, EPUB, HTML, Gumroad 15달러, ChatGPT 구독료 별도)
+  • <strong>뭘 시킬지는 책에:</strong> 그건 제가 다 써 놨어요. 학교 메일, 병원, 보험, 환불·교환 메일, 공식 항의, 학교 카운슬러 상담, 번역까지 ChatGPT 비서한테 맡기는 법을 담았습니다.
+  • <strong>복사해서 붙이면 끝:</strong> 책 열기 → 복사 → 붙여 넣기 → 내 상황 입력. 상황별 명령문 110개라 영어와 컴퓨터가 낯설어도 그대로 따라 하시면 됩니다.
+  • <strong>미뤄 둔 일부터:</strong> 미뤄 둔 영어 메일 한 통부터 해 보세요. 날짜와 금액은 원본으로 꼭 확인해 주세요.
+  • Gumroad 디지털 책 15달러
+  • 컬러 PDF 232쪽, EPUB, HTML
+  • ChatGPT 구독료 별도
 
   <strong>검증 포인트:</strong> 직접 만든 책, 판매 페이지와 내용 대조
 ---
